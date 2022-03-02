@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.chinafestival.mapper.UserMapper">
+
+    <insert id="addUser" parameterType="com.chinafestival.pojo.User">
+        insert into chinafestival.users(u_id,u_name,signature,headphoto,statecode,password)
+        values (#{u_id},#{u_name},#{signature},#{headphoto},#{statecode},#{password})
+    </insert>
+
+     <update id="deleteUser" parameterType="com.chinafestival.pojo.User">
+      delete from chinafestival.users
+      where u_id=#{u_id}
+     </update>
+    <update id="updateUser" parameterType="com.chinafestival.pojo.User">
+        update  chinafestival.users
+        set  u_name=#{u_name},signature=#{signature},headphoto=#{headphoto},statecode=#{statecode},password=#{password}
+        where u_id=#{u_id}
+    </update>
+    <select id="queryUser" parameterType="com.chinafestival.pojo.User" resultType="com.chinafestival.pojo.User">
+        select * from chinafestival.users limit #{page},#{limit}
+    </select>
+    <select id="selectUser" resultType="com.chinafestival.pojo.User" >
+        select * from chinafestival.users
+        <where>
+            <if test="Keyword!=null">
+                and concat_ws(" ",u_id,u_name) regexp #{Keyword}
+            </if>
+        </where>
+        limit #{page},#{limit}
+    </select>
+
+
+</mapper>

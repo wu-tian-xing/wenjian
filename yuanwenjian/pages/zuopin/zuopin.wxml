@@ -1,0 +1,40 @@
+<view style="width: 100%;">
+<view wx:for="{{zp}}" wx:key="index" >
+<view class="zdhz">
+<view style="height: 20rpx;" ></view>
+<image  class="bg" src="{{item.pucture}}"></image>
+
+<view class="dhz">
+<view class="setting">
+<view class="bj" bindtap="gotoxiangqing" data-id="{{item.a_id}}">{{item.title}}</view>
+<view class="bj-1"> 活动时间 : {{item.starttime}}-{{item.endtime}}</view>
+</view>
+</view>
+<view class="bj-22" >
+<text  class="bj-2"   decode="true">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{item.informatin}}</text>
+</view>
+<text>
+
+</text>
+<view class="bj-3">
+<text decode="true">&nbsp;活动地点：{{item.place}}</text>
+</view>
+<view class="bj-4">
+<text decode="true">&nbsp;已报名人数：{{item.joinpeople}}&nbsp;人</text>
+</view>
+<view class="btn">
+<view style=" float:right;">
+  <view class="score" style="background-color:{{score}};" bindtap="gotoxiangqing" data-id="{{item.a_id}}">
+    <text>查看详情</text>
+  </view>
+</view>
+</view>
+
+
+
+</view>
+
+</view>
+</view>
+
+

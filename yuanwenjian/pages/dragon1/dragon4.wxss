@@ -1,0 +1,8 @@
+/* pages/dragon1/dragon4.wxss */
+.e{font-size:1rem;
+  display: flex;
+ flex-direction: column;
+ color:rgb(7, 7, 7);
+ align-items: center;
+ line-height:2em;
+}

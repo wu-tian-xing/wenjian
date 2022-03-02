@@ -1,0 +1,30 @@
+<!--pages/mszq/qx.wxml-->
+<text></text>
+
+
+<text></text>
+
+<view class="a" >
+<view class="c"><image mode="widthFix" src="https://b2.kuibu.net/file/imgdisk/imgs/2022/01/d400ada43047c476.png"></image> </view>
+<view class="b" >  巧果  </view>
+</view>
+
+<view class="d">
+<view class="a" >
+<view class="c">
+<image mode="widthFix" src="https://b2.kuibu.net/file/imgdisk/imgs/2022/01/6520138282955547.png">
+</image>
+ </view>
+<view class="b" > 玫瑰馒 </view>
+</view>
+</view>
+
+<view class="e">
+<view class="a" >
+<view class="c">
+<image mode="widthFix" src="https://b2.kuibu.net/file/imgdisk/imgs/2022/01/548230b9d4666f9a.png">
+</image>
+ </view>
+<view class="b" >  蛋糕卷  </view>
+</view>
+</view>

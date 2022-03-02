@@ -1,0 +1,83 @@
+
+.bg
+{
+  width:750rpx;
+  height:330rpx;
+  border-radius: 25rpx;
+  position: fixed;
+  z-index:-1;
+}
+.zdhz{
+
+  height: 500rpx;
+
+}
+.dgz{
+  height: 100rpx;
+  display: flex;
+flex-direction: row;
+
+}
+
+.bj{
+    
+   font-size:50rpx;
+   width: 260rpx;
+   }
+   .bj-1{
+    
+   
+   width: 400rpx;
+ 
+   font-size:27rpx;
+   }
+   .bj-2{
+    top: 65px;
+   display: flex;
+
+   left:70rpx;
+   font-size:35rpx;
+   }
+   .bj-3{
+    top: 160px;
+   display: flex;
+
+   left:60rpx;
+   font-size:35rpx;
+   }
+   .bj-4{
+    top: 190px;
+   display: flex;
+   left:60rpx;
+   font-size:35rpx;
+   }
+
+.setting{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top:20rpx;
+  margin-left:40rpx;
+}
+.score{
+  width:335rpx;
+  border-radius:10rpx 0rpx 0rpx 10rpx;
+}
+/* pages/zuopin/xiangqing.wxss */
+.a{
+  line-height:2em;
+  letter-spacing:5rpx;
+   }
+    .btn
+     {    
+       bottom:240rpx;
+       top:-270rpx;
+       right:0rpx;
+      border-radius:30rpx;
+      font-size:30rpx;
+      background:rgb(196, 224, 243);
+     }
+
+
+
+

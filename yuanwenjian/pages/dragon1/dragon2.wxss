@@ -1,0 +1,20 @@
+/* pages/dragon1/dragon2.wxss */
+.banner{
+    width:100%;
+    height:calc(100vw*15/16);
+  }
+  .autoImg
+  {
+    width:100%;
+  }
+  
+.e{font-size:1rem;
+    display: flex;
+   flex-direction: column;
+   color:rgb(7, 7, 7);
+   align-items: center;
+   line-height:2em;
+ }
+ .a{
+    line-height:2em;
+     }

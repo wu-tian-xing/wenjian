@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.chinafestival.mapper.FestivalMapper">
+    <insert id="addFestival" parameterType="com.chinafestival.pojo.Festival">
+        insert into chinafestival.festivals(festival_id,festival_name)
+        values (#{festival_id},#{festival_name})
+    </insert>
+    <delete id="deleteFestival" parameterType="com.chinafestival.pojo.Festival">
+        delete from chinafestival.festivals
+        where festival_id=#{festival_id}
+    </delete>
+    <update id="updateFestival" parameterType="com.chinafestival.pojo.Festival">
+        update  chinafestival.festivals
+        set  festival_name=#{festival_name}
+        where festival_id=#{festival_id}
+    </update>
+
+    <select id="queryFestival" parameterType="com.chinafestival.pojo.Festival"
+            resultType="com.chinafestival.pojo.Festival">
+        select * from chinafestival.festivals
+      limit #{page},#{limit}
+    </select>
+    <select id="selectFestival" resultType="com.chinafestival.pojo.Festival" >
+        select * from chinafestival.festivals
+        <where>
+            <if test="Keyword!=null">
+                and concat_ws(" ",festival_id,festival_name) regexp #{Keyword}
+            </if>
+        </where>
+        limit #{page},#{limit}
+    </select>
+
+</mapper>

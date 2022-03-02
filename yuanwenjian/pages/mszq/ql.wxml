@@ -1,0 +1,29 @@
+<!--pages/mszq/ql.wxml-->
+
+
+<text></text>
+
+<view class="a" >
+<view class="c"><image mode="widthFix" src="https://b2.kuibu.net/file/imgdisk/imgs/2022/01/e7b27c8081d5f8ca.png"></image> </view>
+<view class="b" >  小炒猪头  </view>
+</view>
+
+<view class="d">
+<view class="a" >
+<view class="c">
+<image mode="widthFix" src="https://b2.kuibu.net/file/imgdisk/imgs/2022/01/c108d49de9db01a1.png">
+</image>
+ </view>
+<view class="b" > 红烧猪头肉 </view>
+</view>
+</view>
+
+<view class="e">
+<view class="a" >
+<view class="c">
+<image mode="widthFix" src="https://b2.kuibu.net/file/imgdisk/imgs/2022/01/c361c8e81fb63c58.png">
+</image>
+ </view>
+<view class="b" >  凉拌猪头  </view>
+</view>
+</view>

@@ -1,0 +1,29 @@
+<!--pages/mszq/cx.wxml-->
+<text></text>
+
+<text></text>
+
+<view class="a" >
+<view class="c"><image mode="widthFix" src="https://b2.kuibu.net/file/imgdisk/imgs/2022/01/fa0678849a068329.png"></image> </view>
+<view class="b" >  清蒸鲈鱼  </view>
+</view>
+
+<view class="d">
+<view class="a" >
+<view class="c">
+<image mode="widthFix" src="https://b2.kuibu.net/file/imgdisk/imgs/2022/01/bf2c6c60851ba39b.png">
+</image>
+ </view>
+<view class="b" > 鲜肉小混 </view>
+</view>
+</view>
+
+<view class="e">
+<view class="a" >
+<view class="c">
+<image mode="widthFix" src="https://b2.kuibu.net/file/imgdisk/imgs/2022/01/2e78dba606c81d97.png">
+</image>
+ </view>
+<view class="b" >  长肉膜膜  </view>
+</view>
+</view>

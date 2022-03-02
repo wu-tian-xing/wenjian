@@ -1,0 +1,41 @@
+<!--pages/dragon1/dragon5.wxml-->
+<view class='setting' bindtap='jumpLogin'>
+    <image class='btnImg' src='https://b2.kuibu.net/file/imgdisk/imgs/2022/01/c099fd8e22c5ace2.png' style="width:100rpx;height:100rpx;"></image>
+         <text style="font-size:1rem;color:#0d0d0e">祭社神</text>
+      </view>
+<view>
+<text decode="true"class="a">&nbsp;&nbsp;二月二既是龙抬头节也是土地公的诞辰，“土地诞”也称“社日节”。社日分为春社日和秋社日，古时春社是立春后第五个戊日，秋社是立秋后第五个戊日（戊，五行属土）。古人认为土生万物，土地神是广为敬奉的神灵之一。人们认为土地公管理着五谷的生长和地方的平安，很多地方的百姓都在社日奉祀土地神。土地公又称福德正神，在中国南方地区，为给土地公公“暖寿”，有的地方有举办“土地会”的习俗：家家凑钱为土地神祝贺生日，到土地庙烧香祭祀，敲锣鼓，放鞭炮。
+</text>
+</view>
+<view class='setting' bindtap='jumpLogin'>
+    <image class='btnImg' src='https://b2.kuibu.net/file/imgdisk/imgs/2022/01/0d89fa59ca188052.png' style="width:100rpx;height:100rpx;"></image>
+         <text style="font-size:1rem;color:#0d0d0e">祭社神</text>
+      </view>
+      <view>
+      <text decode="true"class="a">&nbsp;&nbsp;二月二这天在饮食上也有一定的讲究，北方百姓在这天饮食多以龙为名。吃春饼名曰“吃龙鳞”，吃面条名曰“吃龙须”，吃馄饨为“吃龙眼”，吃饺子则叫“吃龙耳”，面条、馄饨一块煮叫做“龙拿珠”，吃葱饼叫做“撕龙皮”。有些地方还有吃“龙眼”、“龙须”、“龙舌”、“龙耳”、“龙皮”、“龙子”、“龙蛋”以及吃春饼、吃猪头肉的习俗。一切均取与龙有关的象征与寓意。这些都寄托了人们祈龙赐福的强烈愿望。
+      </text>
+      </view>
+      <view class='setting' bindtap='jumpLogin'>
+    <image class='btnImg' src='https://b2.kuibu.net/file/imgdisk/imgs/2022/01/3c9fa96761c09adb.png' style="width:100rpx;height:100rpx;"></image>
+         <text style="font-size:1rem;color:#0d0d0e">剃龙头</text>
+      </view>
+      <view>
+      <text decode="true"class="a">&nbsp;&nbsp;指二月初二理发，儿童理发，叫剃“喜头”，借龙抬头之吉时，保佑孩童健康成长，长大后出人头地；大人理发，辞旧迎新，希望带来好运，新的一年顺顺利利。
+      </text>
+      </view>
+      <view class='setting' bindtap='jumpLogin'>
+    <image class='btnImg' src='https://b2.kuibu.net/file/imgdisk/imgs/2022/01/e31c0b5b5cfb6dbf.png' style="width:100rpx;height:100rpx;"></image>
+         <text style="font-size:1rem;color:#0d0d0e">起龙船</text>
+      </view>
+      <view>
+      <text decode="true"class="a">&nbsp;&nbsp;古时，龙抬头节是祭祀龙神的日子，每年的这一天，人们都要到龙神庙或水畔焚香上供祭祀龙神，祈求龙神兴云化雨，保佑一年五谷丰登。龙抬头时节我国部分地区会有“起龙船”的活动，请龙出水，以及祈求事事顺利的心愿。
+      </text>
+      </view>
+      <view class='setting' bindtap='jumpLogin'>
+    <image class='btnImg' src='https://b2.kuibu.net/file/imgdisk/imgs/2022/01/de6208b65d3fddcd.png' style="width:100rpx;height:100rpx;"></image>
+         <text style="font-size:1rem;color:#0d0d0e">放龙灯</text>
+      </view>
+      <view>
+      <text decode="true"class="a">&nbsp;&nbsp;黄河三角洲及一些沿河地区还有”放龙灯“的习俗。不少人家用芦苇或秫秸扎成小船，插上蜡烛或放上用萝卜挖成的小油碗，待到傍晚时分，放到河里或湾里点燃，为龙照路。借此娱乐同时又传递一种美好的祝愿。
+      </text>
+      </view>

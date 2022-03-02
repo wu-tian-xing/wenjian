@@ -1,0 +1,28 @@
+<!--pages/craft2/craft2.wxml-->
+<view class="tt">
+<text class="dd">材料和工具</text>
+</view>
+<view class="view-test">
+<text>彩纸、黑色油性笔、针书机、 剪刀</text>
+</view>
+<view class="tt">
+<text class="dd">制作的步骤</text>
+</view>
+<view >
+<text>1.如下图所示，在黄色彩纸上画龙头、脚和尾巴。</text>
+</view>
+<view class='imagesize'>
+<image src="https://s3.bmp.ovh/imgs/2022/01/1d76b7cceaf61438.png" class='size' mode="widthFix"></image>
+</view>
+<view >
+<text>2.用钉书机把龙头固定在第一个圈上。</text>
+</view>
+<view class='imagesize'>
+<image src="https://s3.bmp.ovh/imgs/2022/01/72b79fe825f9e2a0.png" class='size' mode="widthFix"></image>
+</view>
+<view >
+<text>3.接着用长条纸做成圈圈串龙身，把尾巴在最后一个圈上就完成。</text>
+</view>
+<view class='imagesize'>
+<image src="https://s3.bmp.ovh/imgs/2022/01/5e1373f1decbaf63.png" class='size' mode="widthFix"></image>
+</view>

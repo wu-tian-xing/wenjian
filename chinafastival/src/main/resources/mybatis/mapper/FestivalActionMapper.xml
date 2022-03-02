@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.chinafestival.mapper.FestivalActionMapper">
+    <insert id="addFestivalAction" parameterType="com.chinafestival.pojo.FestivalAction">
+        insert into chinafestival.festivals_action(id,title,details,pucture,writer,times,festival_id,actions)
+        values (#{id},#{title},#{details},#{pucture},#{writer},#{times},#{festival_id},#{actions})
+    </insert>
+    <update id="deleteFestivalAction" parameterType="com.chinafestival.pojo.FestivalAction">
+        delete from chinafestival.festivals_action
+        where id=#{id}
+    </update>
+    <update id="updateFestivalAction" parameterType="com.chinafestival.pojo.FestivalAction">
+        update  chinafestival.festivals_action
+        set  title=#{title},details=#{details},pucture=#{pucture},
+             writer=#{writer},times=#{times},festival_id=#{festival_id},actions=#{actions}
+        where id=#{id}
+    </update>
+    <select id="queryFestivalAction" parameterType="com.chinafestival.pojo.FestivalAction"
+            resultType="com.chinafestival.pojo.FestivalAction">
+        select * from chinafestival.festivals_action
+            limit #{page},#{limit}
+    </select>
+    <select id="selectFestivalAction" parameterType="com.chinafestival.pojo.FestivalAction"
+        resultType="com.chinafestival.pojo.FestivalAction">
+         select * from chinafestival.festivals_action
+          where  actions=#{actions},festival_id=#{festival_id}
+    </select>
+    <select id="selectFestivalWork" resultType="com.chinafestival.pojo.FestivalAction" >
+        select * from chinafestival.festivals_action
+        <where>
+            <if test="Keyword!=null">
+                and concat_ws(" ",id,title,writer,actions) regexp #{Keyword}
+            </if>
+        </where>
+        limit #{page},#{limit}
+    </select>
+
+</mapper>

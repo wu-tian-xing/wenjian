@@ -1,0 +1,28 @@
+<!--pages/mdzq/yx.wxml-->
+<text></text>
+
+
+<view class="a" >
+<view class="c"><image mode="widthFix" src="https://b2.kuibu.net/file/imgdisk/imgs/2022/01/ebcbb15557055daa.png"></image> </view>
+<view class="b" >  水晶汤  </view>
+</view>
+
+<view class="d">
+<view class="a" >
+<view class="c">
+<image mode="widthFix" src="https://b2.kuibu.net/file/imgdisk/imgs/2022/01/bc1295a52990dd1a.png">
+</image>
+ </view>
+<view class="b" > 红糖汤 </view>
+</view>
+</view>
+
+<view class="e">
+<view class="a" >
+<view class="c">
+<image mode="widthFix" src="https://b2.kuibu.net/file/imgdisk/imgs/2022/01/6682d4e16941c70a.png">
+</image>
+ </view>
+<view class="b" >  油炸汤  </view>
+</view>
+</view>

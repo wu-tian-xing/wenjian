@@ -1,0 +1,59 @@
+/* pages/newyear1/newyear1.wxss */
+.banner{
+    width:100%;
+  }
+  .autoImg
+  {    
+    width:100%;
+  }
+  .navs {
+    padding-top: 60rpx;
+    display: flex;
+  }
+  .nav-item {
+   width: 300rpx;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* padding: 20rpx; */
+  }
+  .nav-item .nav-image {
+    width: 65rpx;
+    height: 65rpx;
+    /* margin: 5rpx; */
+  }
+  .nav-item text {
+    margin-top: 20rpx;
+    font-size: 28rpx;
+    color: gray;
+  }
+  .setting{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border:2rpx solid #dfdfdf;
+    margin-top: 30rpx;
+    margin-bottom:30rpx;
+  }
+  .header{
+ 
+    border-left-width: 3px;
+    border-left-style: solid;
+    border-left-color: rgb(10, 134, 10);
+  display: flex;
+    justify-content: space-between;
+    align-content: center;
+    height: 45rpx;
+    padding-left: 10rpx;
+    padding-right: 10rpx;
+    margin-top: 25rpx;
+    margin-bottom:25rpx;
+   
+  }
+  .text-all{
+    color: rgb(74, 156, 223);
+    font-size: 15px;
+    padding-top:6rpx;
+  }
+  
+ 

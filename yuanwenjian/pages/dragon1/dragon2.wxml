@@ -1,0 +1,33 @@
+<!--pages/dragon1/dragon2.wxml-->
+<swiper class="banner"indicator-dots="true"indicator-color="white"indicator-active-color="gray"
+autoplay="true"interval="2000">
+<swiper-item>
+<image src="https://b2.kuibu.net/file/imgdisk/imgs/2022/01/42dedee0bb255924.png"mode="widthFix" class="autoImg"></image>
+</swiper-item>
+<swiper-item>
+<image src="https://b2.kuibu.net/file/imgdisk/imgs/2022/01/ed2b60b31196c826.png"mode="widthFix" class="autoImg"></image>
+</swiper-item>
+</swiper>
+<view class="e">
+<text style="color:rgb(43, 211, 203);font-size:40rpx;">龙抬头</text>
+<text style="font-size:20rpx;color:rgb(95, 95, 95);">  每年农历二月二日  </text>
+</view>
+<view>
+<text decode="true"class="a">&nbsp;&nbsp;龙抬头（农历二月二日），又称春耕节、农事节、青龙节、春龙节等，是中国传统节日。</text>
+</view>
+<view>
+<text decode="true"class="a">&nbsp;&nbsp; “龙”指的是二十八宿中的东方苍龙气宿星象，每年仲春卯月（斗指正东）之初，“龙角星”就从地方地平线上升起，故称“龙抬头”。 
+</text>
+</view>
+<view>
+<text decode="true"class="a">&nbsp;&nbsp;龙抬头日在仲春卯月初，“卯”五行属木，卦象为“震”；九二在临卦互震里，表示龙龙离开了潜伏的状态，已出现与地表上，展露头角，为生发之大象     。
+</text>
+</view>
+<view>
+<text decode="true"class="a">&nbsp;&nbsp;在农耕文化中，“龙抬头”标示着阳气发生，雨水增多，万物生机盎然，春耕由此开始。自古以来人们亦将龙抬头作为一个祈求      风调雨顺、驱邪攘灾、纳祥转运的日子。
+</text>
+</view>
+<view>
+<text decode="true"class="a">&nbsp;&nbsp;“龙抬头”虽有着久远的历史源头，出现在文献上将龙抬头与习俗联系在一起是在元代后。元时期把“二月初二”称为“龙抬头”的日子。农历二月已进入仲春季节，“二月二”处在二十四节气的“雨水”、“惊蛰”、“春分”之间。
+</text>
+</view>

@@ -1,0 +1,114 @@
+
+[[_definitions]]
+== Definitions
+
+[[_action]]
+=== Action
+
+[options="header", cols=".^3,.^4"]
+|===
+|Name|Schema
+|**a_id** +
+__optional__|integer (int32)
+|**endtime** +
+__optional__|string
+|**informatin** +
+__optional__|string
+|**joinpeople** +
+__optional__|integer (int32)
+|**needpeople** +
+__optional__|string
+|**picture** +
+__optional__|string
+|**place** +
+__optional__|string
+|**sort** +
+__optional__|string
+|**starttime** +
+__optional__|string
+|**statecode** +
+__optional__|integer (int32)
+|**title** +
+__optional__|string
+|**u_id** +
+__optional__|integer (int32)
+|**way** +
+__optional__|string
+|===
+
+
+[[_dynamereview]]
+=== DynameReview
+
+[options="header", cols=".^3,.^4"]
+|===
+|Name|Schema
+|**d_dateime** +
+__optional__|string
+|**d_details** +
+__optional__|string
+|**d_id** +
+__optional__|integer (int32)
+|**datetime** +
+__optional__|string
+|**details** +
+__optional__|string
+|**num_review** +
+__optional__|integer (int32)
+|**picture** +
+__optional__|string
+|**praise** +
+__optional__|integer (int32)
+|**r_id** +
+__optional__|integer (int32)
+|**u_id** +
+__optional__|integer (int32)
+|**user_id** +
+__optional__|integer (int32)
+|===
+
+
+[[_festival]]
+=== Festival
+
+[options="header", cols=".^3,.^4"]
+|===
+|Name|Schema
+|**festival_id** +
+__optional__|integer (int32)
+|**festival_name** +
+__optional__|string
+|===
+
+
+[[_festivalaction]]
+=== FestivalAction
+
+[options="header", cols=".^3,.^4"]
+|===
+|Name|Schema
+|**actions** +
+__optional__|string
+|**details** +
+__optional__|string
+|**festival_id** +
+__optional__|integer (int32)
+|**id** +
+__optional__|integer (int32)
+|**pucture** +
+__optional__|string
+|**times** +
+__optional__|string
+|**title** +
+__optional__|string
+|**writer** +
+__optional__|string
+|===
+
+
+[[_json]]
+=== JSON
+__Type__ : object
+
+
+

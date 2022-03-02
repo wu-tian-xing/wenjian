@@ -1,0 +1,1853 @@
+
+[[_paths]]
+== Paths
+
+[[_addactionusingget]]
+=== 添加活动
+....
+GET /ActionController/addAction
+....
+
+
+==== Parameters
+
+[options="header", cols=".^2,.^3,.^9,.^4"]
+|===
+|Type|Name|Description|Schema
+|**Query**|**a_id** +
+__optional__|活动id|integer (int32)
+|**Query**|**endtime** +
+__required__|活动结束时间|ref
+|**Query**|**informatin** +
+__optional__|活动内容|string
+|**Query**|**joinpeople** +
+__optional__||integer (int32)
+|**Query**|**needpeople** +
+__required__|活动招募人数|string
+|**Query**|**picture** +
+__optional__||string
+|**Query**|**place** +
+__optional__||string
+|**Query**|**sort** +
+__required__|节日类别|string
+|**Query**|**starttime** +
+__required__|活动开始时间|ref
+|**Query**|**statecode** +
+__optional__||string
+|**Query**|**title** +
+__required__|标题|string
+|**Query**|**u_id** +
+__optional__||integer (int32)
+|**Query**|**way** +
+__optional__||string
+|===
+
+
+==== Responses
+
+[options="header", cols=".^2,.^14,.^4"]
+|===
+|HTTP Code|Description|Schema
+|**200**|OK|<<_json,JSON>>
+|**401**|Unauthorized|No Content
+|**403**|Forbidden|No Content
+|**404**|Not Found|No Content
+|===
+
+
+==== Produces
+
+* `*/*`
+
+
+==== Tags
+
+* 活动
+
+
+[[_adduser_idusingget]]
+=== 报名接口
+....
+GET /ActionController/addUser_id
+....
+
+
+==== Parameters
+
+[options="header", cols=".^2,.^3,.^9,.^4"]
+|===
+|Type|Name|Description|Schema
+|**Query**|**a_id** +
+__optional__|活动id|integer (int32)
+|**Query**|**u_id** +
+__optional__|用户id|integer (int32)
+|===
+
+
+==== Responses
+
+[options="header", cols=".^2,.^14,.^4"]
+|===
+|HTTP Code|Description|Schema
+|**200**|OK|<<_json,JSON>>
+|**401**|Unauthorized|No Content
+|**403**|Forbidden|No Content
+|**404**|Not Found|No Content
+|===
+
+
+==== Produces
+
+* `*/*`
+
+
+==== Tags
+
+* 活动
+
+
+[[_deleteactionusingget]]
+=== 删除活动
+....
+GET /ActionController/deleteAction
+....
+
+
+==== Parameters
+
+[options="header", cols=".^2,.^3,.^9,.^4"]
+|===
+|Type|Name|Description|Schema
+|**Query**|**a_id** +
+__optional__|活动id|integer (int32)
+|===
+
+
+==== Responses
+
+[options="header", cols=".^2,.^14,.^4"]
+|===
+|HTTP Code|Description|Schema
+|**200**|OK|<<_json,JSON>>
+|**401**|Unauthorized|No Content
+|**403**|Forbidden|No Content
+|**404**|Not Found|No Content
+|===
+
+
+==== Produces
+
+* `*/*`
+
+
+==== Tags
+
+* 活动
+
+
+[[_outactionusingget]]
+=== 退出活动
+....
+GET /ActionController/outAction
+....
+
+
+==== Parameters
+
+[options="header", cols=".^2,.^3,.^9,.^4"]
+|===
+|Type|Name|Description|Schema
+|**Query**|**a_id** +
+__optional__|活动id|integer (int32)
+|**Query**|**u_id** +
+__optional__|用户id|integer (int32)
+|===
+
+
+==== Responses
+
+[options="header", cols=".^2,.^14,.^4"]
+|===
+|HTTP Code|Description|Schema
+|**200**|OK|<<_json,JSON>>
+|**401**|Unauthorized|No Content
+|**403**|Forbidden|No Content
+|**404**|Not Found|No Content
+|===
+
+
+==== Produces
+
+* `*/*`
+
+
+==== Tags
+
+* 活动
+
+
+[[_selectactionusingget]]
+=== 查询所有活动信息
+....
+GET /ActionController/selectAction
+....
+
+
+==== Parameters
+
+[options="header", cols=".^2,.^3,.^9,.^4"]
+|===
+|Type|Name|Description|Schema
+|**Query**|**limit** +
+__required__|limit|integer (int32)
+|**Query**|**page** +
+__required__|page|integer (int32)
+|===
+
+
+==== Responses
+
+[options="header", cols=".^2,.^14,.^4"]
+|===
+|HTTP Code|Description|Schema
+|**200**|OK|< string, object > map
+|**401**|Unauthorized|No Content
+|**403**|Forbidden|No Content
+|**404**|Not Found|No Content
+|===
+
+
+==== Produces
+
+* `*/*`
+
+
+==== Tags
+
+* 活动
+
+
+[[_selectoneactionusingget]]
+=== 查找某个活动所有信息
+....
+GET /ActionController/selectOneAction
+....
+
+
+==== Parameters
+
+[options="header", cols=".^2,.^3,.^9,.^4"]
+|===
+|Type|Name|Description|Schema
+|**Query**|**a_id** +
+__optional__|活动id|integer (int32)
+|===
+
+
+==== Responses
+
+[options="header", cols=".^2,.^14,.^4"]
+|===
+|HTTP Code|Description|Schema
+|**200**|OK|<<_action,Action>>
+|**401**|Unauthorized|No Content
+|**403**|Forbidden|No Content
+|**404**|Not Found|No Content
+|===
+
+
+==== Produces
+
+* `*/*`
+
+
+==== Tags
+
+* 活动
+
+
+[[_selectuseractionusingget]]
+=== 个人参加活动历史记录
+....
+GET /ActionController/selectUserAction
+....
+
+
+==== Parameters
+
+[options="header", cols=".^2,.^3,.^9,.^4"]
+|===
+|Type|Name|Description|Schema
+|**Query**|**limit** +
+__required__|limit|integer (int32)
+|**Query**|**page** +
+__required__|page|integer (int32)
+|**Query**|**statecode** +
+__optional__|活动状态码|integer (int32)
+|**Query**|**u_id** +
+__optional__|用户id|integer (int32)
+|===
+
+
+==== Responses
+
+[options="header", cols=".^2,.^14,.^4"]
+|===
+|HTTP Code|Description|Schema
+|**200**|OK|< string, object > map
+|**401**|Unauthorized|No Content
+|**403**|Forbidden|No Content
+|**404**|Not Found|No Content
+|===
+
+
+==== Produces
+
+* `*/*`
+
+
+==== Tags
+
+* 活动
+
+
+[[_updateactionusingget]]
+=== 修改活动信息
+....
+GET /ActionController/updateAction
+....
+
+
+==== Parameters
+
+[options="header", cols=".^2,.^3,.^9,.^4"]
+|===
+|Type|Name|Description|Schema
+|**Query**|**a_id** +
+__optional__|活动id|integer (int32)
+|**Query**|**endtime** +
+__required__|活动结束时间|ref
+|**Query**|**informatin** +
+__required__|活动内容|string
+|**Query**|**joinpeople** +
+__optional__||integer (int32)
+|**Query**|**needpeople** +
+__required__|活动招募人数|string
+|**Query**|**picture** +
+__required__|图片|string
+|**Query**|**place** +
+__required__|地点|string
+|**Query**|**sort** +
+__required__|节日类别|string
+|**Query**|**starttime** +
+__required__|活动开始时间|ref
+|**Query**|**statecode** +
+__optional__||integer (int32)
+|**Query**|**title** +
+__required__|标题|string
+|**Query**|**u_id** +
+__optional__||integer (int32)
+|**Query**|**way** +
+__required__|活动方式|string
+|===
+
+
+==== Responses
+
+[options="header", cols=".^2,.^14,.^4"]
+|===
+|HTTP Code|Description|Schema
+|**200**|OK|<<_json,JSON>>
+|**401**|Unauthorized|No Content
+|**403**|Forbidden|No Content
+|**404**|Not Found|No Content
+|===
+
+
+==== Produces
+
+* `*/*`
+
+
+==== Tags
+
+* 活动
+
+
+[[_addadminusingget]]
+=== 添加用户
+....
+GET /AdminController/addAdmin
+....
+
+
+==== Parameters
+
+[options="header", cols=".^2,.^3,.^9,.^4"]
+|===
+|Type|Name|Description|Schema
+|**Query**|**a_id** +
+__required__|web用户账号|integer (int32)
+|**Query**|**a_name** +
+__required__|web用户名|string
+|**Query**|**password** +
+__required__|密码|string
+|===
+
+
+==== Responses
+
+[options="header", cols=".^2,.^14,.^4"]
+|===
+|HTTP Code|Description|Schema
+|**200**|OK|<<_json,JSON>>
+|**401**|Unauthorized|No Content
+|**403**|Forbidden|No Content
+|**404**|Not Found|No Content
+|===
+
+
+==== Produces
+
+* `*/*`
+
+
+==== Tags
+
+* web用户
+
+
+[[_deleteadminusingget]]
+=== 删除用户
+....
+GET /AdminController/deleteAdmin
+....
+
+
+==== Parameters
+
+[options="header", cols=".^2,.^3,.^9,.^4"]
+|===
+|Type|Name|Description|Schema
+|**Query**|**a_id** +
+__required__|web用户账号|integer (int32)
+|===
+
+
+==== Responses
+
+[options="header", cols=".^2,.^14,.^4"]
+|===
+|HTTP Code|Description|Schema
+|**200**|OK|<<_json,JSON>>
+|**401**|Unauthorized|No Content
+|**403**|Forbidden|No Content
+|**404**|Not Found|No Content
+|===
+
+
+==== Produces
+
+* `*/*`
+
+
+==== Tags
+
+* web用户
+
+
+[[_loginusingget]]
+=== web用户登录
+....
+GET /AdminController/login
+....
+
+
+==== Parameters
+
+[options="header", cols=".^2,.^3,.^9,.^4"]
+|===
+|Type|Name|Description|Schema
+|**Query**|**a_id** +
+__optional__||integer (int32)
+|**Query**|**a_name** +
+__required__|web用户名|string
+|**Query**|**creationTime** +
+__optional__||integer (int64)
+|**Query**|**id** +
+__optional__||string
+|**Query**|**lastAccessedTime** +
+__optional__||integer (int64)
+|**Query**|**maxInactiveInterval** +
+__optional__||integer (int32)
+|**Query**|**new** +
+__optional__||boolean
+|**Query**|**password** +
+__required__|密码|string
+|**Query**|**servletContext.classLoader** +
+__optional__||ref
+|**Query**|**servletContext.contextPath** +
+__optional__||string
+|**Query**|**servletContext.defaultSessionTrackingModes** +
+__optional__||< enum (COOKIE, URL, SSL) > array(multi)
+|**Query**|**servletContext.effectiveMajorVersion** +
+__optional__||integer (int32)
+|**Query**|**servletContext.effectiveMinorVersion** +
+__optional__||integer (int32)
+|**Query**|**servletContext.effectiveSessionTrackingModes** +
+__optional__||< enum (COOKIE, URL, SSL) > array(multi)
+|**Query**|**servletContext.jspConfigDescriptor.jspPropertyGroups[0].buffer** +
+__optional__||string
+|**Query**|**servletContext.jspConfigDescriptor.jspPropertyGroups[0].defaultContentType** +
+__optional__||string
+|**Query**|**servletContext.jspConfigDescriptor.jspPropertyGroups[0].deferredSyntaxAllowedAsLiteral** +
+__optional__||string
+|**Query**|**servletContext.jspConfigDescriptor.jspPropertyGroups[0].elIgnored** +
+__optional__||string
+|**Query**|**servletContext.jspConfigDescriptor.jspPropertyGroups[0].errorOnUndeclaredNamespace** +
+__optional__||string
+|**Query**|**servletContext.jspConfigDescriptor.jspPropertyGroups[0].includeCodas** +
+__optional__||< string > array(multi)
+|**Query**|**servletContext.jspConfigDescriptor.jspPropertyGroups[0].includePreludes** +
+__optional__||< string > array(multi)
+|**Query**|**servletContext.jspConfigDescriptor.jspPropertyGroups[0].isXml** +
+__optional__||string
+|**Query**|**servletContext.jspConfigDescriptor.jspPropertyGroups[0].pageEncoding** +
+__optional__||string
+|**Query**|**servletContext.jspConfigDescriptor.jspPropertyGroups[0].scriptingInvalid** +
+__optional__||string
+|**Query**|**servletContext.jspConfigDescriptor.jspPropertyGroups[0].trimDirectiveWhitespaces** +
+__optional__||string
+|**Query**|**servletContext.jspConfigDescriptor.jspPropertyGroups[0].urlPatterns** +
+__optional__||< string > array(multi)
+|**Query**|**servletContext.jspConfigDescriptor.taglibs[0].taglibLocation** +
+__optional__||string
+|**Query**|**servletContext.jspConfigDescriptor.taglibs[0].taglibURI** +
+__optional__||string
+|**Query**|**servletContext.majorVersion** +
+__optional__||integer (int32)
+|**Query**|**servletContext.minorVersion** +
+__optional__||integer (int32)
+|**Query**|**servletContext.requestCharacterEncoding** +
+__optional__||string
+|**Query**|**servletContext.responseCharacterEncoding** +
+__optional__||string
+|**Query**|**servletContext.serverInfo** +
+__optional__||string
+|**Query**|**servletContext.servletContextName** +
+__optional__||string
+|**Query**|**servletContext.sessionCookieConfig.comment** +
+__optional__||string
+|**Query**|**servletContext.sessionCookieConfig.domain** +
+__optional__||string
+|**Query**|**servletContext.sessionCookieConfig.httpOnly** +
+__optional__||boolean
+|**Query**|**servletContext.sessionCookieConfig.maxAge** +
+__optional__||integer (int32)
+|**Query**|**servletContext.sessionCookieConfig.name** +
+__optional__||string
+|**Query**|**servletContext.sessionCookieConfig.path** +
+__optional__||string
+|**Query**|**servletContext.sessionCookieConfig.secure** +
+__optional__||boolean
+|**Query**|**servletContext.sessionTimeout** +
+__optional__||integer (int32)
+|**Query**|**servletContext.virtualServerName** +
+__optional__||string
+|**Query**|**valueNames** +
+__optional__||< string > array(multi)
+|===
+
+
+==== Responses
+
+[options="header", cols=".^2,.^14,.^4"]
+|===
+|HTTP Code|Description|Schema
+|**200**|OK|<<_json,JSON>>
+|**401**|Unauthorized|No Content
+|**403**|Forbidden|No Content
+|**404**|Not Found|No Content
+|===
+
+
+==== Produces
+
+* `*/*`
+
+
+==== Tags
+
+* web用户
+
+
+[[_queryadminusingget]]
+=== 查询所有用户
+....
+GET /AdminController/queryAdmin
+....
+
+
+==== Parameters
+
+[options="header", cols=".^2,.^3,.^9,.^4"]
+|===
+|Type|Name|Description|Schema
+|**Query**|**limit** +
+__required__|limit|integer (int32)
+|**Query**|**page** +
+__required__|page|integer (int32)
+|===
+
+
+==== Responses
+
+[options="header", cols=".^2,.^14,.^4"]
+|===
+|HTTP Code|Description|Schema
+|**200**|OK|<<_json,JSON>>
+|**401**|Unauthorized|No Content
+|**403**|Forbidden|No Content
+|**404**|Not Found|No Content
+|===
+
+
+==== Produces
+
+* `*/*`
+
+
+==== Tags
+
+* web用户
+
+
+[[_saveuserinfousingget]]
+=== saveUserInfo
+....
+GET /AdminController/saveAdminInfo
+....
+
+
+==== Parameters
+
+[options="header", cols=".^2,.^3,.^4"]
+|===
+|Type|Name|Schema
+|**Query**|**a_id** +
+__optional__|integer (int32)
+|**Query**|**a_name** +
+__optional__|string
+|**Query**|**password** +
+__optional__|string
+|===
+
+
+==== Responses
+
+[options="header", cols=".^2,.^14,.^4"]
+|===
+|HTTP Code|Description|Schema
+|**200**|OK|<<_json,JSON>>
+|**401**|Unauthorized|No Content
+|**403**|Forbidden|No Content
+|**404**|Not Found|No Content
+|===
+
+
+==== Produces
+
+* `*/*`
+
+
+==== Tags
+
+* web用户
+
+
+[[_updateadminpwdusingget]]
+=== 修改密码
+....
+GET /AdminController/updateAdminPwd
+....
+
+
+==== Parameters
+
+[options="header", cols=".^2,.^3,.^9,.^4"]
+|===
+|Type|Name|Description|Schema
+|**Query**|**a_id** +
+__required__|web用户账号|integer (int32)
+|**Query**|**a_name** +
+__optional__||string
+|**Query**|**password** +
+__required__|密码|string
+|**Query**|**pwd1** +
+__optional__|pwd1|string
+|**Query**|**pwd2** +
+__optional__|pwd2|string
+|===
+
+
+==== Responses
+
+[options="header", cols=".^2,.^14,.^4"]
+|===
+|HTTP Code|Description|Schema
+|**200**|OK|<<_json,JSON>>
+|**401**|Unauthorized|No Content
+|**403**|Forbidden|No Content
+|**404**|Not Found|No Content
+|===
+
+
+==== Produces
+
+* `*/*`
+
+
+==== Tags
+
+* web用户
+
+
+[[_verifyuserpwdusingget]]
+=== 修改密码-----验证密码
+....
+GET /AdminController/verifyAdminPwd
+....
+
+
+==== Parameters
+
+[options="header", cols=".^2,.^3,.^9,.^4"]
+|===
+|Type|Name|Description|Schema
+|**Query**|**a_id** +
+__required__|web用户账号|integer (int32)
+|**Query**|**a_name** +
+__optional__||string
+|**Query**|**password** +
+__required__|密码|string
+|===
+
+
+==== Responses
+
+[options="header", cols=".^2,.^14,.^4"]
+|===
+|HTTP Code|Description|Schema
+|**200**|OK|<<_json,JSON>>
+|**401**|Unauthorized|No Content
+|**403**|Forbidden|No Content
+|**404**|Not Found|No Content
+|===
+
+
+==== Produces
+
+* `*/*`
+
+
+==== Tags
+
+* web用户
+
+
+[[_adddynamicusingget]]
+=== 添加 动态
+....
+GET /DynamicController/addDynamic
+....
+
+
+==== Parameters
+
+[options="header", cols=".^2,.^3,.^9,.^4"]
+|===
+|Type|Name|Description|Schema
+|**Query**|**d_id** +
+__optional__||integer (int32)
+|**Query**|**datetime** +
+__optional__||string
+|**Query**|**details** +
+__required__|内容|string
+|**Query**|**num_review** +
+__optional__||integer (int32)
+|**Query**|**picture** +
+__optional__||string
+|**Query**|**user_id** +
+__required__|用户id|string
+|===
+
+
+==== Responses
+
+[options="header", cols=".^2,.^14,.^4"]
+|===
+|HTTP Code|Description|Schema
+|**200**|OK|<<_json,JSON>>
+|**401**|Unauthorized|No Content
+|**403**|Forbidden|No Content
+|**404**|Not Found|No Content
+|===
+
+
+==== Produces
+
+* `*/*`
+
+
+==== Tags
+
+* 动态
+
+
+[[_deletedynamicusingget]]
+=== 删除 动态
+....
+GET /DynamicController/deleteDynamic
+....
+
+
+==== Parameters
+
+[options="header", cols=".^2,.^3,.^9,.^4"]
+|===
+|Type|Name|Description|Schema
+|**Query**|**d_id** +
+__required__|动态id|integer (int32)
+|===
+
+
+==== Responses
+
+[options="header", cols=".^2,.^14,.^4"]
+|===
+|HTTP Code|Description|Schema
+|**200**|OK|<<_json,JSON>>
+|**401**|Unauthorized|No Content
+|**403**|Forbidden|No Content
+|**404**|Not Found|No Content
+|===
+
+
+==== Produces
+
+* `*/*`
+
+
+==== Tags
+
+* 动态
+
+
+[[_qureydynamicusingget]]
+=== 查询所有动态
+....
+GET /DynamicController/qureyDynamic
+....
+
+
+==== Parameters
+
+[options="header", cols=".^2,.^3,.^9,.^4"]
+|===
+|Type|Name|Description|Schema
+|**Query**|**limit** +
+__required__|limit|integer (int32)
+|**Query**|**page** +
+__required__|page|integer (int32)
+|===
+
+
+==== Responses
+
+[options="header", cols=".^2,.^14,.^4"]
+|===
+|HTTP Code|Description|Schema
+|**200**|OK|< string, object > map
+|**401**|Unauthorized|No Content
+|**403**|Forbidden|No Content
+|**404**|Not Found|No Content
+|===
+
+
+==== Produces
+
+* `*/*`
+
+
+==== Tags
+
+* 动态
+
+
+[[_qureyuserdynamicusingget]]
+=== 查询用户所有动态
+....
+GET /DynamicController/qureyUserDynamic
+....
+
+
+==== Parameters
+
+[options="header", cols=".^2,.^3,.^9,.^4"]
+|===
+|Type|Name|Description|Schema
+|**Query**|**limit** +
+__required__|limit|integer (int32)
+|**Query**|**page** +
+__required__|page|integer (int32)
+|**Query**|**user_id** +
+__required__|用户id|string
+|===
+
+
+==== Responses
+
+[options="header", cols=".^2,.^14,.^4"]
+|===
+|HTTP Code|Description|Schema
+|**200**|OK|< string, object > map
+|**401**|Unauthorized|No Content
+|**403**|Forbidden|No Content
+|**404**|Not Found|No Content
+|===
+
+
+==== Produces
+
+* `*/*`
+
+
+==== Tags
+
+* 动态
+
+
+[[_selectdynamereviewusingget]]
+=== 查看一个动态所有信息
+....
+GET /DynamicController/selectDynameReview
+....
+
+
+==== Parameters
+
+[options="header", cols=".^2,.^3,.^9,.^4"]
+|===
+|Type|Name|Description|Schema
+|**Query**|**d_id** +
+__required__|动态id|integer (int32)
+|===
+
+
+==== Responses
+
+[options="header", cols=".^2,.^14,.^4"]
+|===
+|HTTP Code|Description|Schema
+|**200**|OK|< <<_dynamereview,DynameReview>> > array
+|**401**|Unauthorized|No Content
+|**403**|Forbidden|No Content
+|**404**|Not Found|No Content
+|===
+
+
+==== Produces
+
+* `*/*`
+
+
+==== Tags
+
+* 动态
+
+
+[[_updatedynamicusingget]]
+=== 修改动态
+....
+GET /DynamicController/updateDynamic
+....
+
+
+==== Parameters
+
+[options="header", cols=".^2,.^3,.^9,.^4"]
+|===
+|Type|Name|Description|Schema
+|**Query**|**d_id** +
+__required__|动态id|integer (int32)
+|**Query**|**datetime** +
+__optional__||string
+|**Query**|**details** +
+__optional__||string
+|**Query**|**num_review** +
+__optional__||integer (int32)
+|**Query**|**picture** +
+__optional__||string
+|**Query**|**user_id** +
+__optional__||integer (int32)
+|===
+
+
+==== Responses
+
+[options="header", cols=".^2,.^14,.^4"]
+|===
+|HTTP Code|Description|Schema
+|**200**|OK|<<_json,JSON>>
+|**401**|Unauthorized|No Content
+|**403**|Forbidden|No Content
+|**404**|Not Found|No Content
+|===
+
+
+==== Produces
+
+* `*/*`
+
+
+==== Tags
+
+* 动态
+
+
+[[_updatenumreviewusingget]]
+=== 修改评论数
+....
+GET /DynamicController/updateNumReview
+....
+
+
+==== Parameters
+
+[options="header", cols=".^2,.^3,.^9,.^4"]
+|===
+|Type|Name|Description|Schema
+|**Query**|**d_id** +
+__required__|动态id|integer (int32)
+|**Query**|**num_review** +
+__required__|评论数|integer (int32)
+|===
+
+
+==== Responses
+
+[options="header", cols=".^2,.^14,.^4"]
+|===
+|HTTP Code|Description|Schema
+|**200**|OK|<<_json,JSON>>
+|**401**|Unauthorized|No Content
+|**403**|Forbidden|No Content
+|**404**|Not Found|No Content
+|===
+
+
+==== Produces
+
+* `*/*`
+
+
+==== Tags
+
+* 动态
+
+
+[[_addfestivalactionusingget]]
+=== 添加作品
+....
+GET /FestivalActionController/addFestivalAction
+....
+
+
+==== Parameters
+
+[options="header", cols=".^2,.^3,.^9,.^4"]
+|===
+|Type|Name|Description|Schema
+|**Query**|**actions** +
+__required__|类别|string
+|**Query**|**details** +
+__optional__||string
+|**Query**|**festival_id** +
+__required__|节日id|integer (int32)
+|**Query**|**id** +
+__optional__||integer (int32)
+|**Query**|**pucture** +
+__optional__||string
+|**Query**|**times** +
+__optional__||string
+|**Query**|**title** +
+__required__|标题|string
+|**Query**|**writer** +
+__required__|作者|string
+|===
+
+
+==== Responses
+
+[options="header", cols=".^2,.^14,.^4"]
+|===
+|HTTP Code|Description|Schema
+|**200**|OK|<<_json,JSON>>
+|**401**|Unauthorized|No Content
+|**403**|Forbidden|No Content
+|**404**|Not Found|No Content
+|===
+
+
+==== Produces
+
+* `*/*`
+
+
+==== Tags
+
+* 节日活动
+
+
+[[_deletefestivalactionusingget]]
+=== 删除 作品
+....
+GET /FestivalActionController/deleteFestivalAction
+....
+
+
+==== Parameters
+
+[options="header", cols=".^2,.^3,.^9,.^4"]
+|===
+|Type|Name|Description|Schema
+|**Query**|**id** +
+__required__|节日作品id|integer (int32)
+|===
+
+
+==== Responses
+
+[options="header", cols=".^2,.^14,.^4"]
+|===
+|HTTP Code|Description|Schema
+|**200**|OK|<<_json,JSON>>
+|**401**|Unauthorized|No Content
+|**403**|Forbidden|No Content
+|**404**|Not Found|No Content
+|===
+
+
+==== Produces
+
+* `*/*`
+
+
+==== Tags
+
+* 节日活动
+
+
+[[_queryfestivalactionusingget]]
+=== 查询所有动态
+....
+GET /FestivalActionController/queryFestivalAction
+....
+
+
+==== Parameters
+
+[options="header", cols=".^2,.^3,.^9,.^4"]
+|===
+|Type|Name|Description|Schema
+|**Query**|**actions** +
+__required__|类别|string
+|**Query**|**festival_id** +
+__required__|节日id|integer (int32)
+|**Query**|**limit** +
+__required__|limit|integer (int32)
+|**Query**|**page** +
+__required__|page|integer (int32)
+|===
+
+
+==== Responses
+
+[options="header", cols=".^2,.^14,.^4"]
+|===
+|HTTP Code|Description|Schema
+|**200**|OK|< string, object > map
+|**401**|Unauthorized|No Content
+|**403**|Forbidden|No Content
+|**404**|Not Found|No Content
+|===
+
+
+==== Produces
+
+* `*/*`
+
+
+==== Tags
+
+* 节日活动
+
+
+[[_selectfestivalactionusingget]]
+=== 查询一个作品所有信息
+....
+GET /FestivalActionController/selectFestivalAction
+....
+
+
+==== Parameters
+
+[options="header", cols=".^2,.^3,.^9,.^4"]
+|===
+|Type|Name|Description|Schema
+|**Query**|**id** +
+__required__|节日作品id|integer (int32)
+|===
+
+
+==== Responses
+
+[options="header", cols=".^2,.^14,.^4"]
+|===
+|HTTP Code|Description|Schema
+|**200**|OK|<<_festivalaction,FestivalAction>>
+|**401**|Unauthorized|No Content
+|**403**|Forbidden|No Content
+|**404**|Not Found|No Content
+|===
+
+
+==== Produces
+
+* `*/*`
+
+
+==== Tags
+
+* 节日活动
+
+
+[[_updatefestivalactionusingget]]
+=== 修改 作品
+....
+GET /FestivalActionController/updateFestivalAction
+....
+
+
+==== Parameters
+
+[options="header", cols=".^2,.^3,.^9,.^4"]
+|===
+|Type|Name|Description|Schema
+|**Query**|**actions** +
+__optional__||string
+|**Query**|**details** +
+__optional__||string
+|**Query**|**festival_id** +
+__optional__||integer (int32)
+|**Query**|**id** +
+__required__|节日作品id|integer (int32)
+|**Query**|**pucture** +
+__optional__||string
+|**Query**|**times** +
+__optional__||string
+|**Query**|**title** +
+__optional__||string
+|**Query**|**writer** +
+__optional__||string
+|===
+
+
+==== Responses
+
+[options="header", cols=".^2,.^14,.^4"]
+|===
+|HTTP Code|Description|Schema
+|**200**|OK|<<_json,JSON>>
+|**401**|Unauthorized|No Content
+|**403**|Forbidden|No Content
+|**404**|Not Found|No Content
+|===
+
+
+==== Produces
+
+* `*/*`
+
+
+==== Tags
+
+* 节日活动
+
+
+[[_addfestivalusingget]]
+=== 添加节日
+....
+GET /FestivalController/addFestival
+....
+
+
+==== Parameters
+
+[options="header", cols=".^2,.^3,.^9,.^4"]
+|===
+|Type|Name|Description|Schema
+|**Query**|**festival_id** +
+__required__|节日id|integer (int32)
+|**Query**|**festival_name** +
+__required__|节日名称|string
+|===
+
+
+==== Responses
+
+[options="header", cols=".^2,.^14,.^4"]
+|===
+|HTTP Code|Description|Schema
+|**200**|OK|<<_json,JSON>>
+|**401**|Unauthorized|No Content
+|**403**|Forbidden|No Content
+|**404**|Not Found|No Content
+|===
+
+
+==== Produces
+
+* `*/*`
+
+
+==== Tags
+
+* 节日
+
+
+[[_deletefestivalusingget]]
+=== 删除节日
+....
+GET /FestivalController/deleteFestival
+....
+
+
+==== Parameters
+
+[options="header", cols=".^2,.^3,.^9,.^4"]
+|===
+|Type|Name|Description|Schema
+|**Query**|**festival_id** +
+__required__|节日id|integer (int32)
+|===
+
+
+==== Responses
+
+[options="header", cols=".^2,.^14,.^4"]
+|===
+|HTTP Code|Description|Schema
+|**200**|OK|<<_json,JSON>>
+|**401**|Unauthorized|No Content
+|**403**|Forbidden|No Content
+|**404**|Not Found|No Content
+|===
+
+
+==== Produces
+
+* `*/*`
+
+
+==== Tags
+
+* 节日
+
+
+[[_queryfestivalusingget]]
+=== 查询所有节日
+....
+GET /FestivalController/queryFestival
+....
+
+
+==== Parameters
+
+[options="header", cols=".^2,.^3,.^9,.^4"]
+|===
+|Type|Name|Description|Schema
+|**Query**|**limit** +
+__required__|limit|integer (int32)
+|**Query**|**page** +
+__required__|page|integer (int32)
+|===
+
+
+==== Responses
+
+[options="header", cols=".^2,.^14,.^4"]
+|===
+|HTTP Code|Description|Schema
+|**200**|OK|<<_json,JSON>>
+|**401**|Unauthorized|No Content
+|**403**|Forbidden|No Content
+|**404**|Not Found|No Content
+|===
+
+
+==== Produces
+
+* `*/*`
+
+
+==== Tags
+
+* 节日
+
+
+[[_selectfestivalusingget]]
+=== 查询单个节日
+....
+GET /FestivalController/selectFestival
+....
+
+
+==== Parameters
+
+[options="header", cols=".^2,.^3,.^9,.^4"]
+|===
+|Type|Name|Description|Schema
+|**Query**|**festival_id** +
+__required__|节日id|integer (int32)
+|===
+
+
+==== Responses
+
+[options="header", cols=".^2,.^14,.^4"]
+|===
+|HTTP Code|Description|Schema
+|**200**|OK|<<_festival,Festival>>
+|**401**|Unauthorized|No Content
+|**403**|Forbidden|No Content
+|**404**|Not Found|No Content
+|===
+
+
+==== Produces
+
+* `*/*`
+
+
+==== Tags
+
+* 节日
+
+
+[[_updatefestivalusingget]]
+=== 修改节日
+....
+GET /FestivalController/updateFestival
+....
+
+
+==== Parameters
+
+[options="header", cols=".^2,.^3,.^9,.^4"]
+|===
+|Type|Name|Description|Schema
+|**Query**|**festival_id** +
+__required__|节日id|integer (int32)
+|**Query**|**festival_name** +
+__optional__||string
+|===
+
+
+==== Responses
+
+[options="header", cols=".^2,.^14,.^4"]
+|===
+|HTTP Code|Description|Schema
+|**200**|OK|<<_json,JSON>>
+|**401**|Unauthorized|No Content
+|**403**|Forbidden|No Content
+|**404**|Not Found|No Content
+|===
+
+
+==== Produces
+
+* `*/*`
+
+
+==== Tags
+
+* 节日
+
+
+[[_addreviewusingget]]
+=== addReview
+....
+GET /ReviewController/addReview
+....
+
+
+==== Parameters
+
+[options="header", cols=".^2,.^3,.^9,.^4"]
+|===
+|Type|Name|Description|Schema
+|**Query**|**d_id** +
+__required__|动态id|integer (int32)
+|**Query**|**dateime** +
+__optional__||string
+|**Query**|**details** +
+__optional__||string
+|**Query**|**praise** +
+__optional__||integer (int32)
+|**Query**|**r_id** +
+__optional__||integer (int32)
+|**Query**|**u_id** +
+__required__|用户id|integer (int32)
+|===
+
+
+==== Responses
+
+[options="header", cols=".^2,.^14,.^4"]
+|===
+|HTTP Code|Description|Schema
+|**200**|OK|<<_json,JSON>>
+|**401**|Unauthorized|No Content
+|**403**|Forbidden|No Content
+|**404**|Not Found|No Content
+|===
+
+
+==== Produces
+
+* `*/*`
+
+
+==== Tags
+
+* 评论
+
+
+[[_deletereviewusingget]]
+=== 删除评论
+....
+GET /ReviewController/deleteReview
+....
+
+
+==== Parameters
+
+[options="header", cols=".^2,.^3,.^9,.^4"]
+|===
+|Type|Name|Description|Schema
+|**Query**|**d_id** +
+__optional__|d_id|integer (int32)
+|**Query**|**r_id** +
+__required__|评论id|integer (int32)
+|===
+
+
+==== Responses
+
+[options="header", cols=".^2,.^14,.^4"]
+|===
+|HTTP Code|Description|Schema
+|**200**|OK|<<_json,JSON>>
+|**401**|Unauthorized|No Content
+|**403**|Forbidden|No Content
+|**404**|Not Found|No Content
+|===
+
+
+==== Produces
+
+* `*/*`
+
+
+==== Tags
+
+* 评论
+
+
+[[_queryreviewusingget]]
+=== 查询所有用户
+....
+GET /ReviewController/queryReview
+....
+
+
+==== Parameters
+
+[options="header", cols=".^2,.^3,.^9,.^4"]
+|===
+|Type|Name|Description|Schema
+|**Query**|**d_id** +
+__required__|动态id|integer (int32)
+|**Query**|**limit** +
+__optional__|limit|integer (int32)
+|**Query**|**page** +
+__optional__|page|integer (int32)
+|===
+
+
+==== Responses
+
+[options="header", cols=".^2,.^14,.^4"]
+|===
+|HTTP Code|Description|Schema
+|**200**|OK|< string, object > map
+|**401**|Unauthorized|No Content
+|**403**|Forbidden|No Content
+|**404**|Not Found|No Content
+|===
+
+
+==== Produces
+
+* `*/*`
+
+
+==== Tags
+
+* 评论
+
+
+[[_updatereviewusingget]]
+=== 修改评论
+....
+GET /ReviewController/updateReview
+....
+
+
+==== Parameters
+
+[options="header", cols=".^2,.^3,.^9,.^4"]
+|===
+|Type|Name|Description|Schema
+|**Query**|**d_id** +
+__optional__||integer (int32)
+|**Query**|**dateime** +
+__optional__||string
+|**Query**|**details** +
+__optional__||string
+|**Query**|**praise** +
+__optional__||integer (int32)
+|**Query**|**r_id** +
+__required__|评论id|integer (int32)
+|**Query**|**u_id** +
+__optional__||integer (int32)
+|===
+
+
+==== Responses
+
+[options="header", cols=".^2,.^14,.^4"]
+|===
+|HTTP Code|Description|Schema
+|**200**|OK|<<_json,JSON>>
+|**401**|Unauthorized|No Content
+|**403**|Forbidden|No Content
+|**404**|Not Found|No Content
+|===
+
+
+==== Produces
+
+* `*/*`
+
+
+==== Tags
+
+* 评论
+
+
+[[_adduserusingget]]
+=== 添加用户
+....
+GET /UserController/addUser
+....
+
+
+==== Parameters
+
+[options="header", cols=".^2,.^3,.^9,.^4"]
+|===
+|Type|Name|Description|Schema
+|**Query**|**getpraise** +
+__optional__||string
+|**Query**|**headphoto** +
+__optional__||string
+|**Query**|**password** +
+__required__|密码|string
+|**Query**|**signature** +
+__optional__||string
+|**Query**|**statecode** +
+__optional__||string
+|**Query**|**u_id** +
+__required__|用户id|integer (int32)
+|**Query**|**u_name** +
+__required__|昵称|string
+|===
+
+
+==== Responses
+
+[options="header", cols=".^2,.^14,.^4"]
+|===
+|HTTP Code|Description|Schema
+|**200**|OK|<<_json,JSON>>
+|**401**|Unauthorized|No Content
+|**403**|Forbidden|No Content
+|**404**|Not Found|No Content
+|===
+
+
+==== Produces
+
+* `*/*`
+
+
+==== Tags
+
+* 小程序用户
+
+
+[[_deleteuserusingget]]
+=== 删除用户
+....
+GET /UserController/deleteUser
+....
+
+
+==== Parameters
+
+[options="header", cols=".^2,.^3,.^9,.^4"]
+|===
+|Type|Name|Description|Schema
+|**Query**|**u_id** +
+__required__|用户id|integer (int32)
+|===
+
+
+==== Responses
+
+[options="header", cols=".^2,.^14,.^4"]
+|===
+|HTTP Code|Description|Schema
+|**200**|OK|<<_json,JSON>>
+|**401**|Unauthorized|No Content
+|**403**|Forbidden|No Content
+|**404**|Not Found|No Content
+|===
+
+
+==== Produces
+
+* `*/*`
+
+
+==== Tags
+
+* 小程序用户
+
+
+[[_queryuserusingget]]
+=== 查询所有用户
+....
+GET /UserController/queryUser
+....
+
+
+==== Parameters
+
+[options="header", cols=".^2,.^3,.^9,.^4"]
+|===
+|Type|Name|Description|Schema
+|**Query**|**limit** +
+__required__|limit|integer (int32)
+|**Query**|**page** +
+__required__|page|integer (int32)
+|===
+
+
+==== Responses
+
+[options="header", cols=".^2,.^14,.^4"]
+|===
+|HTTP Code|Description|Schema
+|**200**|OK|<<_json,JSON>>
+|**401**|Unauthorized|No Content
+|**403**|Forbidden|No Content
+|**404**|Not Found|No Content
+|===
+
+
+==== Produces
+
+* `*/*`
+
+
+==== Tags
+
+* 小程序用户
+
+
+[[_updateuserusingget]]
+=== 修改用户信息
+....
+GET /UserController/updateUser
+....
+
+
+==== Parameters
+
+[options="header", cols=".^2,.^3,.^9,.^4"]
+|===
+|Type|Name|Description|Schema
+|**Query**|**getpraise** +
+__optional__||string
+|**Query**|**headphoto** +
+__optional__||string
+|**Query**|**password** +
+__optional__||string
+|**Query**|**signature** +
+__optional__||string
+|**Query**|**statecode** +
+__optional__||string
+|**Query**|**u_id** +
+__required__|用户id|integer (int32)
+|**Query**|**u_name** +
+__optional__||string
+|===
+
+
+==== Responses
+
+[options="header", cols=".^2,.^14,.^4"]
+|===
+|HTTP Code|Description|Schema
+|**200**|OK|<<_json,JSON>>
+|**401**|Unauthorized|No Content
+|**403**|Forbidden|No Content
+|**404**|Not Found|No Content
+|===
+
+
+==== Produces
+
+* `*/*`
+
+
+==== Tags
+
+* 小程序用户
+
+
+

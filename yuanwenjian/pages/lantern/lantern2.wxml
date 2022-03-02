@@ -1,0 +1,8 @@
+
+
+<view wx:for="{{cxwa}}" wx:key="list">
+<button open-type='share'style="width:765rpx;"class="b">
+<text class="c"> {{item.details}}</text>
+</button>
+</view>
+

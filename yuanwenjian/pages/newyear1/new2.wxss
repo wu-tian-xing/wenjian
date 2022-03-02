@@ -1,0 +1,26 @@
+/* pages/newyear1/new2.wxss */
+
+.e{font-size:1rem;
+    display: flex;
+   flex-direction: column;
+   color:rgb(7, 7, 7);
+   align-items: center;
+   line-height:2em;
+ }
+ .banner{
+    width:100%;
+  }
+  .autoImg
+{
+  width:100%;
+}
+.a{
+    line-height:2em;
+    }
+    .size{
+      display:flex;
+      justify-content:center;
+
+    }
+
+

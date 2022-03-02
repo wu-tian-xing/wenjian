@@ -1,0 +1,18 @@
+/* pages/spring/spring33.wxss */
+/* pages/springtaboo1/springtaboo1.wxss */
+.size
+{top:50rpx;
+height:100%;
+width:100%;
+left:100rpx;
+}
+.aa
+{
+    width:100%;
+    height:60%;   display:flex;
+    justify-content:center;
+
+    width:100%;
+    height:400rpx;
+    top:10rpx;
+}

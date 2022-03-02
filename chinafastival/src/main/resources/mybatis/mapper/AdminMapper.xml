@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.chinafestival.mapper.AdminMapper">
+
+    <select id="login" parameterType="com.chinafestival.pojo.Admin" resultType="com.chinafestival.pojo.Admin">
+        select *from chinafestival.admins
+        where a_name=#{a_name} and password=#{password}
+    </select>
+    <update id="saveAdminInfo" parameterType="com.chinafestival.pojo.Admin">
+        update chinafestival.admins
+        set a_id-#{a_id},a_name=#{a_name},password=#{password}
+        where a_id=#{a_id}
+    </update>
+    <select id="verifyAdminPwd" resultType="com.chinafestival.pojo.Admin">
+        select * from chinafestival.admins
+        where a_id=#{a_id} and password=#{password}
+    </select>
+    <insert id="addAdmin" parameterType="com.chinafestival.pojo.Admin">
+        insert into chinafestival.admins (a_id,a_name,password)
+        values (#{a_id},#{a_name},#{password});
+    </insert>
+    <update id="deleteAdmin" parameterType="com.chinafestival.pojo.Admin">
+        delete from chinafestival.admins
+        where a_id=#{a_id}
+    </update>
+    <update id="updateAdminPwd" parameterType="com.chinafestival.pojo.Admin">
+        update chinafestival.admins
+        set password=#{password}
+        where a_id=#{a_id}
+    </update>
+    <select id="queryAdminInfo" parameterType="com.chinafestival.pojo.Admin" resultType="com.chinafestival.pojo.Admin">
+        select * from chinafestival.admins limit #{page},#{limit}
+    </select>
+
+    <select id="selectAdmin" resultType="com.chinafestival.pojo.Admin" >
+        select * from chinafestival.admins
+        <where>
+            <if test="Keyword!=null">
+                and concat_ws(" ",a_id,a_name,password) regexp #{Keyword}
+            </if>
+        </where>
+        limit #{page},#{limit}
+    </select>
+
+
+</mapper>

@@ -1,0 +1,64 @@
+
+
+<swiper class="banner"indicator-dots="true"indicator-color="white"indicator-active-color="gray"
+autoplay="true"interval="1000">
+<swiper-item>
+<image src="https://s3.bmp.ovh/imgs/2022/01/17591c8722496341.png"mode="widthFix" class="autoImg"></image>
+</swiper-item>
+<swiper-item>
+<image src="https://b2.kuibu.net/file/imgdisk/imgs/2022/01/c4b8fdbf0960bd54.png"mode="widthFix" class="autoImg"></image>
+</swiper-item>
+<swiper-item>
+<image src="https://b2.kuibu.net/file/imgdisk/imgs/2022/01/441e522cfbd76be8.png"mode="widthFix" class="autoImg"></image>
+</swiper-item>
+</swiper>
+<view class='navs'>
+  <view class='nav-item'bindtap='gotodragon2'>
+    <image class="nav-image" src='https://s3.bmp.ovh/imgs/2022/01/96a094ccf862ca63.png'  />
+    <text>节日科普</text>
+  </view>
+  <view class='nav-item' bindtap='gotodragon3'>
+    <image class="nav-image" src='https://s3.bmp.ovh/imgs/2022/01/69bba1614c4952c1.png' />
+    <text>美食专区</text>
+  </view>
+  <view class='nav-item'bindtap='gotodragon4'>
+    <image class="nav-image" src='https://s3.bmp.ovh/imgs/2022/01/c1dbf2aa90655b0e.png' />
+    <text> 文学诗句</text>
+  </view>
+  <view class='nav-item'bindtap='gotodragon5'>
+    <image class="nav-image" src='https://s3.bmp.ovh/imgs/2022/01/96ae95eb900b3560.png' />
+    <text>节日习俗</text>
+</view>
+</view>
+<view class="header">
+<text>其他了解</text>
+<text class="text-all">青龙节</text>
+</view>
+<view class='setting' >
+  <image class='btnImg' src='https://s3.bmp.ovh/imgs/2022/01/44712e8c13c30b02.gif' style="width:250rpx;height:200rpx;"></image>
+<text style="font-size:0.7rem;color:#0d0d0e"> 古代，人们观察到苍龙星宿自东方夜空升起，
+秋天自西方落下，其出没周期和方位正与一年
+的农时周期相一致。后来，这天也被赋予多重
+含义和寄托，衍化成“龙抬头”。
+。</text>  
+      </view>
+      <view class='setting' >
+  <image class='btnImg' src='https://s3.bmp.ovh/imgs/2022/01/d4c96f90b2f3618d.gif' style="width:250rpx;height:200rpx;"></image>
+<text style="font-size:0.7rem;color:#0d0d0e">龙抬头也被称为“农耕节”、“春龙节”等。
+庆祝“龙头节”，以示敬龙乞雨，让老天保佑
+丰收。同时也相传二月二日是土地公公的生
+日，给土地公公“暖寿”。
+ </text>  
+      </view>
+      <view class='setting' >
+  <image class='btnImg' src='https://s3.bmp.ovh/imgs/2022/01/b3dae3adf8f874cb.gif' style="width:250rpx;height:200rpx;"></image>
+<text style="font-size:0.7rem;color:#0d0d0e">   唐代对二月二日极为看重，皇宫内会举行挑刺
+活动，在容器里栽种蔬菜，并将名字压在背
+后，让官员猜测，中了会有奖励。在元代，
+二月二日被称为“尹青节”，这一天百姓们都
+会出门挑水，后来正式和“龙抬头”关联起来。
+
+ </text>  
+      </view>
+
+

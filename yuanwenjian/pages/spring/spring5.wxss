@@ -1,0 +1,13 @@
+/* pages/spring/spring5.wxss */
+/* pages/springdevelop/springdevelop.wxss */
+.banner{
+    width:100%;
+  }
+  .autoImg
+  {
+    width:100%;
+  }
+  .e{
+    line-height:2em;
+    
+     }

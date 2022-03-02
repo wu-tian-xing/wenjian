@@ -1,0 +1,59 @@
+<block wx:if="{{user==null}}">
+<button  bindtap="getWxInfo">登录</button>
+</block>
+<block>
+
+<view class="a">
+<image src="{{user.avatarUrl}}" class="b"></image>
+</view>
+<view class="c">
+<text class="d"  decode="true">{{user.nickName}}</text></view>
+</block>
+
+
+<view class='setting'bindtap="gotozuopin">
+   <image  src='https://b2.kuibu.net/file/imgdisk/imgs/2022/01/67d36dddc3dad046.png' style="width:70rpx;height:70rpx;  left:50rpx;"></image>
+      
+      <view class="h"> 
+       <text style="font-size:1.0rem;color:#0d0d0e">我的作品</text>
+      </view> 
+      </view>
+   <view class="hr">
+   </view>
+      <view class='setting'bindtap="gotohuodong">
+    <image  src='https://s4.ax1x.com/2022/01/23/74t5dO.png' style="width:70rpx;height:70rpx;  left:50rpx;"></image>
+        <view class="g">
+        <text style="font-size:1.0rem;color:#0d0d0e">我的活动</text>
+        </view>
+      </view>
+      <view class="hr">
+   </view>
+   <view>
+<view class="setting-1">
+    <image src='https://b2.kuibu.net/file/imgdisk/imgs/2022/01/e1fc9490558bc91d.png' style="width:70rpx;height:70rpx; "mode="widthFix"></image>
+
+   </view>
+      <view class="hr">   
+   </view>
+<view >
+ <button open-type="contact"  class="button">
+ <text style="font-size:1.0rem;font-weight:500;">在线客服</text>
+ </button>
+</view>
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <view style="height: 50rpx;"></view>
+  <button wx:if="{{user!=null}}" bindtap="loginOut" >退出</button>

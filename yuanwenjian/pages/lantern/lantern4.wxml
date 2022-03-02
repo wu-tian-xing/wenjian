@@ -1,0 +1,47 @@
+
+<!--pages/dragon1/dragon5.wxml-->
+<view class='setting'>
+    <image src='https://b2.kuibu.net/file/imgdisk/imgs/2022/01/c417c3e6f5e23ba0.png' style="width:100rpx;height:100rpx;"></image>
+         <text style="font-size:1rem;color:#0d0d0e">【 吃 元 宵 】</text>
+      </view>
+<view>
+<text decode="true"class="a">&nbsp;&nbsp;形成与宋代，
+《元宵煮浮圆子》诗，
+“星灿乌云里，珠浮浊水中”
+</text>
+</view>
+<view class='setting' >
+    <image  src='https://b2.kuibu.net/file/imgdisk/imgs/2022/01/de6208b65d3fddcd.png' style="width:100rpx;height:100rpx;"></image>
+         <text style="font-size:1rem;color:#0d0d0e">【 闹 花 灯、猜 灯 迷 】
+</text>
+      </view>
+      <view>
+      <text decode="true"class="a">&nbsp;&nbsp;始于西汉时期《资治通鉴》中记载，每到正月十五的晚上，人们不论男女，不分贵贱，都到大街上尽情狂欢，鼓声震天，火光照的大地如同白昼。因此元宵节也被称为“灯节”
+      </text>
+      </view>
+      <view class='setting' >
+    <image  src='https://b2.kuibu.net/file/imgdisk/imgs/2022/01/e31c0b5b5cfb6dbf.png' style="width:100rpx;height:100rpx;"></image>
+         <text style="font-size:1rem;color:#0d0d0e">【 划 旱 船 】</text>
+      </view>
+      <view>
+      <text decode="true"class="a">&nbsp;&nbsp;最早见于汉文帝时相传王母娘娘生日时，神仙一起扎了一条旱船为她祝寿，张果老将这条船借下凡间，用旱船来闹新春，此后人间便风调雨顺、连年丰收，便有了划旱船的风俗
+      </text>
+      </view>
+      <view class='setting' >
+    <image src='https://b2.kuibu.net/file/imgdisk/imgs/2022/01/97de5e4e1d116046.png' style="width:100rpx;height:100rpx;"></image>
+         <text style="font-size:1rem;color:#0d0d0e">【 舞 龙 舞 狮 】</text>
+      </view>
+      <view>
+      <text decode="true"class="a">&nbsp;&nbsp;盛行于唐代龙是中华民族的象征，传说中龙可以行云布雨、消灾解难，自古以来就是吉祥的代表；狮子也被我们的 祖先认为是祥瑞之兽，它外形威武、神态多变，是随着佛教从异域传入中国。
+
+      </text>
+      </view>
+      <view class='setting' >
+    <image src='https://b2.kuibu.net/file/imgdisk/imgs/2022/01/8ad7af4c044dc51c.png' style="width:100rpx;height:100rpx;"></image>
+         <text style="font-size:1rem;color:#0d0d0e">【 走 白 病 】</text>
+      </view>
+      <view>
+      <text decode="true"class="a">&nbsp;&nbsp;盛行于明清
+走白病是一种古代妇女求福避灾的一种民俗活动，正月十五，妇女相约外出行走，其中一人拿着香在前面走，人们觉得这样可以强身健体，称之为“走百病”。
+      </text>
+      </view>

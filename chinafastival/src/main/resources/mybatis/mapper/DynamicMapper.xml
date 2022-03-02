@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.chinafestival.mapper.DynamicMapper">
+    <insert id="addDynamic" parameterType="com.chinafestival.pojo.Dynamic">
+        insert into chinafestival.dynamics(d_id,details,picture,datetime,user_id)
+        values (#{d_id},#{details},#{picture},#{datetime},#{user_id})
+    </insert>
+    <update id="deleteDynamic" parameterType="com.chinafestival.pojo.Dynamic">
+        delete from chinafestival.dynamics
+        where d_id=#{d_id}
+    </update>
+    <update id="updateNumReview" parameterType="com.chinafestival.pojo.Dynamic">
+        update chinafestival.dynamics
+        set num_review=#{num_review}
+        where d_id=#{d_id}
+    </update>
+    <update id="updateDynamic" parameterType="com.chinafestival.pojo.Dynamic">
+        update  chinafestival.dynamics
+        set  details=#{details},picture=#{picture},
+             datetime=#{datetime},user_id=#{user_id}
+        where d_id=#{d_id}
+    </update>
+    <select id="qureyDynamic" parameterType="com.chinafestival.pojo.DynamicView"
+            resultType="com.chinafestival.pojo.DynamicView">
+        select * from chinafestival.dynamics_view
+            limit #{page},#{limit}
+    </select>
+    <select id="qureyUserDynamic" parameterType="com.chinafestival.pojo.DynamicView"
+            resultType="com.chinafestival.pojo.DynamicView">
+        select * from chinafestival.dynamics_view
+            where user_id=#{user_id}
+             limit #{page},#{limit}
+    </select>
+
+    <select id="selectDynameReview" parameterType="com.chinafestival.pojo.DynameReview"
+            resultType="com.chinafestival.pojo.DynameReview">
+            select * from chinafestival.dynames_review
+            where  d_id=#{d_id}
+    </select>
+    <select id="selectDynamic" resultType="com.chinafestival.pojo.FestivalAction" >
+        select * from chinafestival.dynames_review
+        <where>
+            <if test="Keyword!=null">
+                and concat_ws(" ",d_id,details,datetime,u_id) regexp #{Keyword}
+            </if>
+        </where>
+        limit #{page},#{limit}
+    </select>
+
+
+</mapper>

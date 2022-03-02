@@ -1,0 +1,97 @@
+<view class="e">
+<text style="color:rgb(228, 63, 63);font-size:40rpx;">除夕</text>
+<text style="font-size:20rpx;"> 农历十二月二十九或三十日 </text>
+</view>
+<swiper class="banner"indicator-dots="true"indicator-color="white"indicator-active-color="gray"
+autoplay="true"interval="1000">
+<swiper-item>
+<image src="https://b2.kuibu.net/file/imgdisk/imgs/2022/01/347df77f6ccdb31b.png"mode="widthFix" class="autoImg"></image>
+</swiper-item>
+<swiper-item>
+<image src="https://b2.kuibu.net/file/imgdisk/imgs/2022/01/784989ee81a53d25.png"mode="widthFix" class="autoImg"></image>
+</swiper-item>
+<swiper-item>
+<image src="https://s3.bmp.ovh/imgs/2022/01/62241e699567dcf6.png"mode="widthFix" class="autoImg"></image>
+</swiper-item>
+</swiper>
+<view class="e">
+<text style="color:rgb(30, 163, 204);font-size:40rpx;">节日渊源</text>
+</view>
+<view>
+<text decode="true"class="a">&nbsp;&nbsp; 除夕作为年尾的节日，源自上古时代岁末除旧布新、祭祀祖先风俗，岁除之日是传统的祭祖节。古籍中有讲到：“天地者，生之本也；先祖者，类之本也。”意思就是说天地是生命的根本，祖先是我们人类的根本，祭祖就是一种传承孝道的习俗。
+</text>
+</view>
+<swiper class="banner"indicator-dots="true"indicator-color="white"indicator-active-color="gray"
+autoplay="true"interval="2000">
+<swiper-item>
+<image src="https://b2.kuibu.net/file/imgdisk/imgs/2022/01/776cfbd219c1263b.png"mode="widthFix" class="autoImg"></image>
+</swiper-item>
+<swiper-item>
+<image src="https://b2.kuibu.net/file/imgdisk/imgs/2022/01/90092deae238dc13.png"mode="widthFix" class="autoImg"></image>
+</swiper-item>
+<swiper-item>
+<image src="https://b2.kuibu.net/file/imgdisk/imgs/2022/01/1f8e45bd3a833512.png"mode="widthFix" class="autoImg"></image>
+</swiper-item>
+</swiper>
+<view>
+<text decode="true"class="a">&nbsp;&nbsp;现存文献中最早提及“除夕”这一名称的，是西晋周处撰著的地方风物志《风土记》。后又称除夕的前一天为小除，即小年夜；除夕为大除，即大年夜。另据《吕氏春秋·季冬记》中说，古人在新年的前一天用击鼓的方法来驱逐“疫疬之鬼”，每年将尽的时候要举行“大傩”的仪式，击鼓驱逐疫疠之鬼据说这也是当时“除夕”节令的习俗之一。
+</text>
+</view>
+<view class="e">
+<text style="color:rgb(30, 135, 184);font-size:40rpx;">风俗习惯
+</text>
+</view>
+<view class="e">
+<text style="color:rgb(226, 155, 199);font-size:40rpx;">贴春联</text>
+</view>
+<view>
+<text decode="true"class="a">&nbsp;&nbsp;春联也叫门对、春贴、对联、对子、桃符等等，它以工整、对偶、简洁、精巧的文字描绘时代背景，抒发美好愿望，是我国特有的文学形式。根据《玉烛宝典》、《燕京岁时记》等著作记载，春联的原始形式就是人们所说的“桃符”。
+</text>
+</view>
+<view  class='size'>
+<image src="https://s3.bmp.ovh/imgs/2022/01/6603991bd9026de9.png" mode="widthFix"class="s"></image>
+</view>
+<view>
+<text decode="true"class="a">&nbsp;&nbsp;春联的种类比较多，依其使用场所，可分为门心、框对、横披、春条、斗方等。“门心”贴于门板上端中心部位；“框对”贴于左右两个门框上；“横披”贴于门媚的横木上；“春条”根据不同的内容，贴于相应的地方；“斗斤”也叫“门叶”，为正方菱形，多贴在家具、影壁中。
+</text>
+</view>
+<view class="e">
+<text style="color:rgb(212, 123, 197);font-size:40rpx;">贴窗花</text>
+</view>
+<view>
+<text decode="true"class="a">&nbsp;&nbsp;窗花不仅烘托了喜庆的节日气氛，也集装饰性、欣赏性和实用性于一体。窗花以其特有的概括和夸张手法将吉事祥物、美好愿望表现得淋漓尽致，将节日装点得红火富丽。
+</text>
+</view>
+<view  class='size'>
+<image src="https://b2.kuibu.net/file/imgdisk/imgs/2022/01/010bac3ba9f11384.png" mode="widthFix"></image>
+</view>
+<view>
+<text  decode="true"class="a">&nbsp;&nbsp; 剪纸在我国是一种很普及的民间艺术，窗花的表现题材极其广博，戏剧人物、历史传说、花鸟鱼虫、山水风景、现实生活及吉祥图案均可成为窗花的表现内容，可谓无所不有。但最多的是花卉动物、喜庆吉祥纹样，常以“吉祥喜庆”、“丰年求祥”、“五谷丰登”、“六畜兴旺”、“连年有余”、“贵花祥鸟”等为主体。
+</text>
+</view>
+<view class="e">
+<text style="color:rgb(248, 125, 228);font-size:40rpx;">贴福字</text>
+</view>
+   <view>
+   <text decode="true"class="a">&nbsp;&nbsp;在贴春联的同时，一些人家要在屋门上、墙壁上、门楣上贴上大大小小的“福”字。春节贴“福”字，是我国民间由来已久的风俗。“福”字指福气、福运，寄托了人们对幸福生活的向往，对美好未来的祝愿。
+   </text>
+   </view>
+   <view  class='size'>
+<image src="https://b2.kuibu.net/file/imgdisk/imgs/2022/01/4d3d6b427b0af2ac.png" mode="widthFix"></image>
+</view>
+<view>
+<text decode="true"class="a">&nbsp;&nbsp;其实福字不能倒贴，大门是迎福纳福的地方，福字应该正贴。福字倒贴的地方一般是水缸，垃圾箱，和家里的箱柜。中国民间还有将“福”字精描细做成各种图案的，图案有寿星、寿桃、鲤鱼跳龙门、五谷丰登、龙凤呈祥等。
+</text>
+</view>
+<view class="e">
+<text style="color:rgb(248, 125, 228);font-size:40rpx;">挂年画</text>
+</view>
+<view  class='size'>
+<image src="https://b2.kuibu.net/file/imgdisk/imgs/2022/01/a7b402184a42d314.png" mode="widthFix"></image>
+</view>
+ <view class="e">
+<text style="color:rgb(248, 125, 228);font-size:40rpx;">祭祖</text>
+</view>
+<view  class='size'>
+<image src="https://b2.kuibu.net/file/imgdisk/imgs/2022/01/3a79596951aa1dba.png" mode="widthFix"></image>
+</view>

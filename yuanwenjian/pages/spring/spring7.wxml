@@ -1,0 +1,16 @@
+<view  wx:for="{{mszq}}"  wx:key="index" >
+<view class='setting' >
+         <text style="font-size:1rem;color:#0d0d0e"class="header">{{item.title}}</text>
+         <image class='btnImg' src='https://b2.kuibu.net/file/imgdisk/imgs/2022/01/fe9e0ca73280854e.png' style="width:100rpx;height:100rpx;"></image>
+      </view>
+      <view>
+         <text decode="true"class="a">&nbsp;&nbsp;{{item.details}}
+         </text>
+      </view>
+      <view class='setting-1'  bindtap='gotonew33' data-id="{{item.id}}">
+         <image src='{{item.pucture}}' style="width:250rpx;height:150rpx;"></image>
+         <text style="font-size:1rem;color:#0d0d0e">{{item.title}}>></text>
+       </view>
+</view>
+    
+       

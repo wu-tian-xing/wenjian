@@ -1,0 +1,12 @@
+<!--pages/window/window.wxml-->
+<view >
+<button class='btn'bindtap='gotohome'
+hover-class="hover"style=" width:165rpx; height:70rpx;padding：0;float:right;">跳过</button>
+</view>
+<view class='imagesize'>
+<image src="https://s3.bmp.ovh/imgs/2022/01/5ae903fe254de788.png" class='size'></image>
+</view>
+
+
+
+

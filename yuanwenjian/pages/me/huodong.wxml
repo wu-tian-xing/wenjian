@@ -1,0 +1,13 @@
+<!--pages/me/huodong.wxml-->
+<view class='setting'bindtap="gotohuo1">
+    <image  src='https://s4.ax1x.com/2022/01/23/753Pg0.png' style="width:70rpx;height:70rpx;  left:50rpx;"></image>
+         <text style="font-size:1.0rem;color:#0d0d0e">参加的活动</text>
+      </view>
+      <view class="hr">
+   </view>
+   <view class='setting'bindtap="gotohuo2">
+    <image  src='https://s4.ax1x.com/2022/01/23/753EbF.png' style="width:70rpx;height:70rpx;  left:50rpx;"></image>
+         <text style="font-size:1.0rem;color:#0d0d0e">结束的活动</text>
+      </view>
+      <view class="hr">
+   </view>

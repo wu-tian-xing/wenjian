@@ -1,0 +1,46 @@
+<!--pages/me/zuopin.wxml-->
+<view class="a-1">
+<image src="https://b2.kuibu.net/file/imgdisk/imgs/2022/01/eca9b6d26747b680.png" class="b"></image>
+</view>
+<view class="c">
+<text class="d"  decode="true">昵称:青竹</text></view>
+<view class="hr">
+   </view>
+   <view >
+   <text >全部作品</text>
+   <view class="hr">
+  </view>
+   </view>
+<view class='setting' >
+            <image  src='https://b2.kuibu.net/file/imgdisk/imgs/2022/01/0ef9862ecfe1e2e8.png' style="width:100rpx;height:100rpx;"></image>
+         <text style="font-size:1rem;color:#666565">青竹
+  2022-1-23-12:40</text>
+
+
+<image src="https://s4.ax1x.com/2022/01/25/779JOI.png"class="e"></image>
+
+
+      </view>
+      <view >
+      <text decode="true"class="a">&nbsp;&nbsp;扭转乾坤，新年快乐</text>
+    </view>
+    <view>
+      <text  decode="true"class="a">&nbsp;&nbsp;希望新的一年，好运不请自来</text>
+    </view>
+<view class="image">
+<image src="https://b2.kuibu.net/file/imgdisk/imgs/2022/01/6677d94723e8443f.png"style="width:300rpx;height:300rpx;" ></image>
+</view>
+<view   class='setting' >
+<image src="https://b2.kuibu.net/file/imgdisk/imgs/2022/01/e7e40d6d310b8641.png"style="width:50rpx;height:50rpx;" class="image-1" ></image>
+ <text  style="font-size:1rem;color:#b9b9b9">66</text>
+
+  <image class="likes" style="opacity:{{0.8}}" class="dianzantu" src="{{favor_img}}" bindtap="praiseThis"  wx:if="{{show == true}}" mode="widthFix" style="width:50rpx;height:50rpx;" class="image-1"/>
+    <image class="likes" style="opacity:{{0.8}}" class="dianzantu" src="{{favor_img2}}" bindtap="praiseThis"  wx:else mode="widthFix" style="width:50rpx;height:50rpx;" class="image-1"/>
+    <view class='title'style="font-size:1rem;color:#b9b9b9">{{like}}人点赞</view>
+  
+
+</view>
+<view class="hr">   
+   </view>
+
+

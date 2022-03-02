@@ -1,0 +1,73 @@
+<!--pages/spring/spring3.wxml-->
+<!--pages/springtaboo/springtaboo.wxml-->
+<view >
+<image src="https://s3.bmp.ovh/imgs/2022/01/032570979189ee9b.png" class='size' mode="widthFix"></image>
+</view>
+<view>
+<text decode="true">&nbsp;&nbsp;年前，长辈们都要嘱咐小孩子很多过年的规矩，若不慎唾沫、说“童言无忌”等方式来化解，比如：新年里不可以打碎家具，打碎了是破产的预兆，得赶紧说“岁（碎）岁平安”或“落地开花，富贵荣华”。
+
+</text>
+</view>
+<view >
+<image src="https://s3.bmp.ovh/imgs/2022/01/5b2a0000d8cab07e.png" class='size' mode="widthFix"></image>
+</view>
+<view>
+<text decode="true">&nbsp;&nbsp;正月初一不能动用扫把，否则会扫走运气，破财。假如非要扫地不可，须从外边扫到里边，到今天许多地方还保留着一习俗，除夕夜前扫除干净，年初一不出扫把，不倒垃圾，备一大桶盛废水，当日不外泼。
+
+</text>
+</view>
+<view >
+<image src="https://s3.bmp.ovh/imgs/2022/01/533fef6e3d14f3d1.png" class='size' mode="widthFix"></image>
+</view>
+<view>
+<text decode="true">&nbsp;&nbsp;大年初二，出嫁的女儿回娘家，要夫婿同行，所以俗称“迎婿日”。这一天，回娘家的女儿必须携带一些礼品和红包，分给娘家的小孩，并且在娘家吃午饭，但必须在晚饭前赶回婆家。在过去，一家人也会选择在这一天拍全家福。
+
+</text>
+</view>
+<view >
+<image src="https://s3.bmp.ovh/imgs/2022/01/dc4ccac2e0a1924e.png" class='size' mode="widthFix"></image>
+</view>
+<view>
+<text decode="true">&nbsp;&nbsp;大年初三又称赤狗日，与“赤口”同音，通常不会外出拜年，传说这天容易与人发生口角争执，不过这个习俗早已过时，因为现在人民难道春节团聚，对此已经淡化了。
+
+</text>
+</view>
+<view >
+<image src="https://s3.bmp.ovh/imgs/2022/01/35c1ac1336946a2f.png" class='size' mode="widthFix"></image>
+</view>
+<view>
+<text decode="true">&nbsp;&nbsp;大年初四是祭财神的日子，过去老板想将某人“炒鱿鱼”，这天就不请他来拜神，对方也就心知肚明，自个收拾走人，还有传说说，灶王爷这天要来查户口，因私也不宜远出。
+
+</text>
+</view>
+<view >
+<image src="https://s3.bmp.ovh/imgs/2022/01/9f84622b65b768a4.png" class='size' mode="widthFix"></image>
+</view>
+<view>
+<text decode="true">&nbsp;&nbsp;正月初五俗称破五，要“赶五穷”包括“智商穷、学穷、文穷、命穷、交穷“。人们放鞭炮，打扫卫生。鞭炮从里往外放，边放边往门外走。说是将一切不吉利的东西都往外轰出去。这天，民间通行的是食俗是吃饺子，俗称”“捏小人脸。
+
+</text>
+</view>
+<view >
+<image src="https://s3.bmp.ovh/imgs/2022/01/871b968edf5a0774.png" class='size' mode="widthFix"></image>
+</view>
+<view>
+<text decode="true">&nbsp;&nbsp;大年初六，商店酒楼才正式开张营业，而且要大方鞭炮。传说这一天最受欢迎的是当年满12岁的男孩，因为12是6的二倍，这叫六六大顺。这一天，每家每户要把节日积存的垃圾丢出去，这叫送穷鬼。
+
+</text>
+</view>
+<view >
+<image src="https://s3.bmp.ovh/imgs/2022/01/82961729ab7e0b32.png" class='size' mode="widthFix"></image>
+</view>
+<view>
+<text decode="true">&nbsp;&nbsp;初七是人日，即人的生日。根据”一鸡二狗三猪四羊五牛六马七人八谷“，所以初七是人日。这天吃及第粥，所谓及第，是希望科考状元高中。人日要尊敬每个人，连宫府也不能在这天处决罪犯，家人们也不能在这天训孩子。
+
+</text>
+</view>
+<view class="uu"bindtap='gotospring33'>
+<text>                                          点击查看更多，
+                                                春节忌讳>>>
+
+</text>                                        
+</view>
+

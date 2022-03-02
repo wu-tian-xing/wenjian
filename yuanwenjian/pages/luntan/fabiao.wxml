@@ -1,0 +1,36 @@
+<text>内容</text>
+<view class="text-box">
+	<text>{{currentInput}}</text>
+	<textarea class="weui-textarea" placeholder="请输入文本" bindinput="getInput" maxlength="100" />
+</view>
+
+
+<!-- 上传 S -->
+<view class="img-list">
+    <!-- 上传列表 -->
+    <view class="upload-video">
+      <block wx:if="{{src != ''}}">
+        <video src="{{src}}" class="img-li"></video>
+        <image class="icon-deletes" src="https://b2.kuibu.net/file/imgdisk/imgs/2022/01/9c97fa7715ec2948.png" bindtap="deleteVideo"></image>
+      </block>
+    </view>
+    <block wx:for="{{imgList}}" wx:key="index">
+      <view class="img-li">
+        <view class="img-li" bindtap="previewImg">
+          <image class="uploading-icon" src="{{item}}"></image>
+        </view>
+        <image class="icon-delete" src="https://b2.kuibu.net/file/imgdisk/imgs/2022/01/9c97fa7715ec2948.png" bindtap="deleteImg"></image>
+      </view>
+    </block>
+    <!-- 上传图片/视频 S -->
+    <view class="img-li" wx:if="{{imgList.length<=8}}" bindtap="actioncnt">
+      <image class="uploading-icon" src="https://b2.kuibu.net/file/imgdisk/imgs/2022/01/8e8fa4077ca66f82.png"></image>
+    </view>
+    <!-- 上传图片/视频 E -->
+  </view>
+  <!-- 上传 E -->
+<view >
+<button bindtap='gotoTabbar'>发布</button>
+</view>
+
+

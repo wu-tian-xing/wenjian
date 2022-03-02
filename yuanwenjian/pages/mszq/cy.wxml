@@ -1,0 +1,29 @@
+<!--pages/mszq/cy.wxml-->
+<text></text>
+
+<text></text>
+
+<view class="a" >
+<view class="c"><image mode="widthFix" src="https://b2.kuibu.net/file/imgdisk/imgs/2022/01/96b2b16aecf08d48.png"></image> </view>
+<view class="b" >  重阳  </view>
+</view>
+
+<view class="d">
+<view class="a" >
+<view class="c">
+<image mode="widthFix" src="https://b2.kuibu.net/file/imgdisk/imgs/2022/01/615143ebceea5646.png">
+</image>
+ </view>
+<view class="b" > 豆沙菊花酥 </view>
+</view>
+</view>
+
+<view class="e">
+<view class="a" >
+<view class="c">
+<image mode="widthFix" src="https://b2.kuibu.net/file/imgdisk/imgs/2022/01/52064895fd9aad6b.png">
+</image>
+ </view>
+<view class="b" >  贾子酥  </view>
+</view>
+</view>

@@ -1,0 +1,28 @@
+
+.dd
+{
+  color:rgb(41, 41, 40);
+font-size:40rpx;
+ display:flew;
+line-height:100rpx;
+
+}
+.tt{
+
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.setting{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border:2rpx solid #dfdfdf;
+    margin-top: 5rpx;
+    margin-bottom:20rpx;
+  }
+  .size{
+    display:flex;
+    justify-content:center;
+
+  }

@@ -1,0 +1,36 @@
+/* pages/mszq/yx.wxss */
+
+
+
+.a{
+    
+    border: 1rpx solid #ffffff;
+    width: 80%;
+    height: 200rpx;
+    border-color: rgb(0, 0, 0);
+    margin: auto;
+}
+.b{
+    position: absolute;
+    font-size: 50rpx;
+    margin-left: 360rpx;
+    top: 70rpx;
+}
+
+.c{
+    position: relative;
+    left: 10rpx;
+    top: 15rpx;
+    display: flex;
+    width: 120px;
+}
+
+.d{
+    position: relative;
+    top: 15rpx;
+}
+
+.e{
+    position: relative;
+    top: 30rpx;
+}

@@ -1,0 +1,91 @@
+{
+    "pages": [
+        "pages/luntan/pinlun",
+      "pages/window/window",
+        "pages/home/home",
+        "pages/luntan/luntan",
+        "pages/luntan/fabiao",
+        "pages/me/me",
+        "pages/me/xiangqing1",
+        "pages/me/huo2",
+        "pages/me/huo1",
+        "pages/me/huodong",
+        "pages/me/zuopin",
+        "pages/mszq/yx",
+        "pages/mszq/ql",
+        "pages/mszq/qm",
+        "pages/mszq/dw",
+        "pages/mszq/qx",
+        "pages/mszq/zy",
+        "pages/mszq/zq",
+        "pages/mszq/cy",
+        "pages/mszq/cx",
+        "pages/mszq/cj",
+        "pages/craft/craft",
+        "pages/craft1.1/craft1.1",
+        "pages/craft2/craft2",
+        "pages/dragon1/dragon1",
+        "pages/dragon1/dragon2",
+        "pages/dragon1/dragon3",
+        "pages/dragon1/dragon4",
+        "pages/dragon1/dragon5",
+        "pages/newyear1/new2",
+        "pages/newyear1/new3",
+        "pages/newyear1/new4",
+        "pages/newyear1/new5",
+        "pages/newyear1/new33",
+        "pages/newyear1/newyear1",
+        "pages/spring/spring",
+        "pages/spring/spring2",
+        "pages/spring/spring3",
+        "pages/spring/spring4",
+        "pages/spring/spring5",
+        "pages/spring/spring6",
+        "pages/spring/spring22",
+        "pages/spring/spring33",
+        "pages/lantern/lantern",
+        "pages/lantern/lantern1",
+        "pages/lantern/lantern2",
+        "pages/lantern/lantern3",
+        "pages/lantern/lantern4",
+        "pages/zuopin/xiangqing",
+        "pages/zuopin/zuopin",
+        "pages/spring/spring7"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "美食专区",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "list": [
+            {
+                "pagePath": "pages/home/home",
+                "text": "首页",
+                "iconPath": "/image/tabs/home.png",
+                "selectedIconPath": "/image/tabs/home-1.png"
+            },
+            {
+                "pagePath": "pages/luntan/luntan",
+                "text": "论坛",
+                "iconPath": "/image/tabs/lun-1.png",
+                "selectedIconPath": "/image/tabs/lun.png"
+            },
+            {
+                "pagePath": "pages/zuopin/zuopin",
+                "text": "召集",
+                "iconPath": "/image/tabs/peiyin.png",
+                "selectedIconPath": "/image/tabs/peiyin-1.png"
+            },
+            {
+                "pagePath": "pages/me/me",
+                "text": "我的",
+                "iconPath": "/image/tabs/me.png",
+                "selectedIconPath": "/image/tabs/me-1.png"
+            }
+        ]
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}

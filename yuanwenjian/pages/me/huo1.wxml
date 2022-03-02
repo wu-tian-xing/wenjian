@@ -1,0 +1,36 @@
+
+<view style="height: 20rpx;" ></view>
+<image   class="bg" src="https://b2.kuibu.net/file/imgdisk/imgs/2022/01/84e898e79c183e0c.png" />
+<view class="zdhz" >
+<view class="dhz">
+<view class="setting">
+<view class="bj" bindtap="gotoxiangqing">温暖聚集</view>
+<view class="bj-1">  活动日期：21/1/24-21/1/25</view>
+</view>
+</view>
+<view>
+<text  class="bj-2"   decode="true">&nbsp;针对除夕节，我们进行线上召集线下参与活动，我们将在线下进行游戏，分队然后进行PK,胜利的可以获得奖品。</text>
+</view>
+<view class="bj-3">
+<text decode="true">&nbsp;活动地点：黑龙江哈尔滨</text>
+</view>
+<view class="bj-4">
+<text decode="true">&nbsp;报名人数：3人</text>
+</view>
+<view class="btn">
+<view wx:if="{{sty==0}}"style=" float:right;">
+  <view class="score" style="background-color:{{score}};" catchtap='score'>
+    <text>退出</text>
+</view>
+</view>
+</view>
+<view  class="btn">
+<view wx:if="{{sty==1}}"style="float:right;">
+  <view class="score" style="background-color:{{score}};"  data-id="{{item.a_id}}" catchtap='score'>
+    <text>已退出</text>
+  </view>
+</view>
+</view>
+</view>
+
+

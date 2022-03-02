@@ -1,0 +1,73 @@
+<!--pages/spring/spring.wxml-->
+<swiper class="banner"indicator-dots="true"indicator-color="white"indicator-active-color="gray"
+autoplay="true"interval="3000">
+<swiper-item>
+<image src="https://b2.kuibu.net/file/imgdisk/imgs/2022/01/2b4c2eb906aecd4b.png"mode="widthFix" class="autoImg"></image>
+</swiper-item>
+<swiper-item>
+<image src="https://s3.bmp.ovh/imgs/2022/01/de5be89e964d97b8.png"mode="widthFix" class="autoImg"></image>
+</swiper-item>
+<swiper-item>
+<image src="https://b2.kuibu.net/file/imgdisk/imgs/2022/01/8ad577faaa11995c.png"mode="widthFix" class="autoImg"></image>
+</swiper-item>
+</swiper>
+<view class="changeContent">
+  <view wx:if="{{testtrue}}">节日内容会随时更新</view>
+  <view wx:else>虎年，祝大家笑口常开，福星高照，财运滚滚</view> 
+</view>
+
+<view class='navs'>
+  <view class='nav-item'bindtap='gotospring7'>
+    <image class="nav-image" src='https://b2.kuibu.net/file/imgdisk/imgs/2022/01/7acfc8b5a96d2527.png' />
+    <text>美食专区</text>
+  </view>
+  <view class='nav-item' bindtap='gotospring2'>
+    <image class="nav-image" src='https://b2.kuibu.net/file/imgdisk/imgs/2022/01/4f379ccb8d4e7202.png' />
+    <text>手工迎春</text>
+  </view>
+  <view class='nav-item'bindtap='gotospring3'>
+    <image class="nav-image" src='https://b2.kuibu.net/file/imgdisk/imgs/2022/01/c31bef527a3b1d25.png' />
+    <text> 春节忌讳</text>
+  </view>
+ 
+</view>
+<view class='navs-1'>
+<view class='nav-item-1'bindtap='gotospring4'>
+    <image class="nav-image-1" src='https://b2.kuibu.net/file/imgdisk/imgs/2022/01/1263b9c8c4bdc562.png' />
+    <text>  春节介绍</text>
+    </view>
+    
+    <view class='nav-item-1'bindtap='gotospring5'>
+    <image class="nav-image-1" src='https://b2.kuibu.net/file/imgdisk/imgs/2022/01/09e76bba696a741a.png' />
+    <text>  春节发展</text>
+  </view>
+
+    <view class='nav-item-1'bindtap='gotospring6'>
+    <image class="nav-image-1" src='https://b2.kuibu.net/file/imgdisk/imgs/2022/01/c85852f9321159c9.png' />
+    <text>  春节习俗</text>
+    </view>
+
+  
+
+ 
+
+
+ </view>
+ <button class="btn-6"plain="true"bindtap="" style="width:840rpx;height:500rpx;left:-40rpx; ">
+<view class='imagesize-6'>
+<image src="https://b2.kuibu.net/file/imgdisk/imgs/2022/01/34c7eab3459162d9.png" class='size-6' mode="widthFix"></image>
+</view>
+</button>
+<button class="btn-7"plain="true"bindtap="" style="width:840rpx;height:500rpx;left:-40rpx; ">
+<view class='imagesize-7'>
+<image src="https://b2.kuibu.net/file/imgdisk/imgs/2022/01/0ed82d2fd6c16451.png" class='size-7' mode="widthFix"></image>
+</view>
+</button>
+
+
+
+
+
+
+
+

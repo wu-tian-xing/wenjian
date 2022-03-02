@@ -1,0 +1,20 @@
+<!--pages/spring/spring6.wxml-->
+<!--pages/springcustom/springcustom.wxml-->
+<view>
+<text decode="true"class="e">&nbsp;&nbsp;传统节日仪式与习俗活动，是节日元素的重要内容，承载着丰富多彩的节日文化底蕴。岁节`（年节）是我国一个古老的节日，也是全年最重要的一个节日，在历史发展中，杂糅了多地多种民俗为一体，形成了一些较为固定的风俗习惯，有许多还相传至今。这些活动，可大体归纳为如下几个方面：奉祀神灵，以应天时；
+</text>
+</view>
+<view>
+<text decode="true"class="e">&nbsp;&nbsp; 崇宗敬祖，维护亲情；驱邪祛恶，以求平安；休闲娱乐，放松心情。百节年为首，春节是中华民族最隆重的传统佳节，它不仅集中体现了中华民族的思想信仰、理想愿望、生活娱乐和文化心理，而且还是祈福攘灾、饮食和娱乐活动的狂欢式展示。
+
+
+</text>
+</view>
+<view class="a">
+<image src="https://s3.bmp.ovh/imgs/2022/01/426e68a2c1de2d4a.png"mode="widthFix"class="autoImg"></image>
+</view>
+
+<view class="a">
+<image src="https://s3.bmp.ovh/imgs/2022/01/f96150b496ecdb14.png"mode="widthFix"class="autoImg"></image>
+</view>
+

@@ -1,0 +1,7 @@
+/* pages/zuopin/xiangqing.wxss */
+.a{
+    line-height:2em;
+    letter-spacing:5rpx;
+     }
+
+   

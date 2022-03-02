@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.chinafestival.mapper.ReviewMapper">
+    <insert id="addReview" parameterType="com.chinafestival.pojo.Review">
+        insert into chinafestival.reviews(r_id,dateime,d_id,details,u_id)
+        values (#{r_id},#{dateime},#{d_id},#{details},#{u_id})
+    </insert>
+    <update id="deleteReview" parameterType="com.chinafestival.pojo.Review">
+        delete from chinafestival.reviews
+        where d_id=#{d_id} and r_id=#{r_id}
+    </update>
+    <update id="updateReview" parameterType="com.chinafestival.pojo.Review">
+        update  chinafestival.reviews
+        set  details=#{details},r_id=#{r_id},
+             dateime=#{dateime},u_id=#{u_id}
+        where d_id=#{d_id} and r_id=#{r_id}
+    </update>
+    <update id="updatepraise" parameterType="com.chinafestival.pojo.Review">
+        update chinafestival.reviews
+            set praise=#{praise}
+    </update>
+
+    <select id="queryReview" parameterType="com.chinafestival.pojo.ReviewView"
+            resultType="com.chinafestival.pojo.ReviewView">
+        select * from chinafestival.reviews_view
+            limit #{page},#{limit}
+    </select>
+    <select id="selectReview" resultType="com.chinafestival.pojo.ReviewView" >
+        select * from chinafestival.reviews_view
+        <where>
+            <if test="Keyword!=null">
+                and concat_ws(" ",u_name,d_details,r_id) regexp #{Keyword}
+            </if>
+        </where>
+        limit #{page},#{limit}
+    </select>
+
+
+</mapper>

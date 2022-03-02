@@ -1,0 +1,16 @@
+/* pages/me/huodong.wxss */
+.setting{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top:40rpx;
+    margin-left:40rpx;
+  
+  }
+  /* 分隔线 */
+.hr {
+    width: 100%;
+    height: 3rpx;
+    margin-top: 25rpx;
+    background-color: #e9e7e5;
+  }

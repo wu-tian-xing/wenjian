@@ -1,0 +1,27 @@
+<!--pages/mszq/cj.wxml-->
+<text></text>
+
+<view class="a" >
+<view class="c"><image mode="widthFix" src="https://b2.kuibu.net/file/imgdisk/imgs/2022/01/242df3d98a7c0e64.png"></image> </view>
+<view class="b" >  水晶饺  </view>
+</view>
+
+<view class="d">
+<view class="a" >
+<view class="c">
+<image mode="widthFix" src="https://b2.kuibu.net/file/imgdisk/imgs/2022/01/615143ebceea5646.png">
+</image>
+ </view>
+<view class="b" > 酸甜年 </view>
+</view>
+</view>
+
+<view class="e">
+<view class="a" >
+<view class="c">
+<image mode="widthFix" src="https://b2.kuibu.net/file/imgdisk/imgs/2022/01/3a47d2f9f61fb0fb.png">
+</image>
+ </view>
+<view class="b" >  翡翠饺  </view>
+</view>
+</view>

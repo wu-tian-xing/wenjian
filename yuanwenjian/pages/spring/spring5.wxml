@@ -1,0 +1,73 @@
+<!--pages/spring/spring5.wxml-->
+<!--pages/springdevelop/springdevelop.wxml-->
+<swiper class="banner"indicator-dots="true"indicator-color="white"indicator-active-color="gray"
+autoplay="true"interval="3000">
+<swiper-item>
+<image src="https://s3.bmp.ovh/imgs/2022/01/e73fec55aa692a95.png"mode="widthFix" class="autoImg"></image>
+</swiper-item>
+<swiper-item>
+<image src="https://s3.bmp.ovh/imgs/2022/01/6f5e9e6a9346b838.png"mode="widthFix" class="autoImg"></image>
+</swiper-item>
+<swiper-item>
+<image src="https://s3.bmp.ovh/imgs/2022/01/b81c14e914f84149.png"mode="widthFix" class="autoImg"></image>
+</swiper-item>
+</swiper>
+<view>
+<text decode="true" class="e">&nbsp;&nbsp; 关于春节的起源有多种说法，其中几种较具代表性的说法，如春节源于腊祭，春节源于巫术仪式说，春节源于鬼节说等，但其中被普遍接受的说法是春节由虞舜时期兴起。
+</text>
+</view>
+<view>
+<text decode="true"class="e">&nbsp;&nbsp; 公元前2000多年的一天，舜即天子位，带领着部下人员，祭拜天地。从此，人们就把这一天当作岁首。据说这就是农历新年的由来，后来叫春节。 中国历代的春节的日期并不一致：
+</text>
+</view>
+<view>
+<text decode="true">&nbsp;&nbsp; 夏朝用孟春的元月为正月。
+</text>
+</view>
+<view>
+<text decode="true">&nbsp;&nbsp; 商朝用腊月（十二月）为正月。
+</text>
+</view>
+<view>
+<text decode="true"class="e">&nbsp;&nbsp; 秦始皇统一六国后规定以十月为正月，汉朝初期沿用秦历。汉武帝太初元年，即公元前104年，天文学家落下闳、邓平等人制订了《太初历》，将原来以十月为岁首改为以孟春正月为岁首，后人在此基本上逐渐完善为我们当今使用的阴历（即农历），落下闳也被称为“春节老人”。此后中国一直沿用夏历（阴历，又称农历）纪年，直到清朝未年，长达2080年。 在不同时代，春节有不同名称。
+
+</text>
+</view>
+<view>
+<text decode="true"class="e">&nbsp;&nbsp;在先秦时叫“上日”、“元日”、“改岁”、“献岁”等；到了两汉时期，又被叫为“三朝”、“岁旦”、“正旦”、“正日”；魏晋南北朝时称为“元辰”、“元日”、“元首”、 “岁朝”等；到了唐宋元明，则称为“元旦”、“元 ”、“岁日”、“新正”
+</text>
+</view>
+<view>
+<text decode="true"class="e">&nbsp;&nbsp; 魏晋时已形成除夕守岁的习俗。晋朝周处所著的《风土记》中记载：除夕之夜大家各相与赠送，称“馈岁”；长幼聚欢，祝颂完备，称“分岁”；终岁不眠，以待天明，称“守岁”。
+</text>
+</view>
+<view>
+<text decode="true"class="e">&nbsp;&nbsp;  唐朝时，人们除登门拜年，还发明一种“拜年帖”。唐太宗李世民用赤金箔做成贺卡，御书“普天同庆”，赐予大臣。这一形式迅速在民间普及，改用梅花笺纸。当时这种“拜年帖”被称为“飞帖”。
+</text>
+</view>
+<view>
+<text decode="true"class="e">&nbsp;&nbsp;  宋代人过年开始吃饺子，宋朝称饺子为“角子”。宋代已普遍开始用纸包火药做成爆竹。除夕、春节放爆竹之俗便逐渐盛行。《东京梦华录》说：“是夜，禁中爆竹山呼，闻声于外。”到了明朝，接灶神、贴门神、除夕守岁、十五赏灯会都已经盛行。《万历嘉兴府志》中记载：“除夕，易门神、桃符、春帖，井隈皆封。爆竹，燔紫，设酒果聚饮，锣鼓彻夜，谓之守岁。”
+</text>
+</view>
+<view>
+<text decode="true"class="e">&nbsp;&nbsp; 商朝用腊月（十二月）为正月。清朝非常重视过年，宫廷过年十分奢华，皇帝有写福字下赐群臣的习俗。过年要一直延续至元宵佳节才算结束，猜灯谜是甚为流行的取乐方式。
+</text>
+</view>
+<view>
+<text decode="true"class="e">&nbsp;&nbsp; 辛亥革命带来了全新的时代，政府提倡新历传统过年不再休假。礼仪上，脱帽、鞠躬、握手、鼓掌等新礼节逐渐成为中国人际交往的“文明仪式”。 春节时间中国人过春节已有4000多年的历史。在现代，人们把春节定于农历正月初一，但一般至少要到正月十五（上元节）新年才算结束，在民间，传统意义上的春节是指从腊月的腊祭或腊月二十三或二十四的祭灶，一直到正月十九。
+</text>
+</view>
+<view>
+<text decode="true"class="e">&nbsp;&nbsp; 春节的时间（农历正月初一）在公历1月21日至2月21日之间游动。“最早的春节”（如1966年的1月21日）和“最迟的春节”（如1985年的2月20日）相差整一个月。根据历法计算，如果农历不进行人为调整的话，2319年2月21日将迎来“史上最晚春节”，此前春节最迟出现在公历2月20日，为1920年和1985年
+</text>
+</view>
+    <view>
+<text decode="true"class="e">&nbsp;&nbsp; 闰春节，又称闰正月，从公元1645年使用历理置闰制开始，到公元2800年的1155年里，农历闰正月只发生6次，非常罕见，其年份分别是1651、2262、2357、2520、2539、2634 
+</text>
+</view>
+ <view>
+<text decode="true"class="e">&nbsp;&nbsp; 闰春节的过法,如果一年有闰正月，原则上春节过第一个正月的，到了闰正月的时候则不过节。当然，也有少数地区过完第一个正月的春节以后，到了闰正月的时候也过闰正月的春节，因为闰正月也叫正月，所以也把闰正月的初一也看做春节来过。
+</text>
+</view>
+
+

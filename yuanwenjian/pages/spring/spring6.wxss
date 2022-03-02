@@ -1,0 +1,14 @@
+/* pages/spring/spring6.wxss */
+/* pages/springcustom/springcustom.wxss */
+
+
+.autoImg
+{
+  width:100%;
+  left:100rpx;
+  
+}
+.e{
+  line-height:2.1em;
+  
+   }

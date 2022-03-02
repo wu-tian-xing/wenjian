@@ -1,0 +1,20 @@
+<!--pages/craft/craft.wxml-->
+<button class="btn-6"plain="true"bindtap="" style="width:840rpx;height:500rpx;left:-40rpx; ">
+<view >
+<image src="https://b2.kuibu.net/file/imgdisk/imgs/2022/01/ff9548e17e04518d.png" class='size-6' mode="widthFix"></image>
+</view>
+</button>
+<view class="index">
+<image class="bg"src="https://b2.kuibu.net/file/imgdisk/imgs/2022/01/fe86ab7ed7953d8b.png">
+</image>
+</view>
+<button class="btn"plain="true"bindtap="gotocraft1" style="width:1005rpx;height:600rpx; ">
+<view class='imagesize'>
+<image src="https://b2.kuibu.net/file/imgdisk/imgs/2022/01/a489483cbba36374.png" class='size' ></image>
+</view>
+</button>
+<button class="btn-1"plain="true"bindtap="gotocraft2" style="width:1005rpx;height:600rpx; ">
+<view class='imagesize-1'>
+<image src="https://b2.kuibu.net/file/imgdisk/imgs/2022/01/a5bd02070c9888f1.png" class='size-1' ></image>
+</view>
+</button>

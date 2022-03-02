@@ -1,0 +1,53 @@
+<!--pages/spring/spring.wxml-->
+<swiper class="banner"indicator-dots="true"indicator-color="white"indicator-active-color="gray"
+autoplay="true"interval="3000">
+<swiper-item>
+<image src="https://b2.kuibu.net/file/imgdisk/imgs/2022/01/d7b328e478b83340.png"mode="widthFix" class="autoImg"></image>
+</swiper-item>
+<swiper-item>
+<image src="https://b2.kuibu.net/file/imgdisk/imgs/2022/01/64bf34ee9e9c8e1f.png"mode="widthFix" class="autoImg"></image>
+</swiper-item>
+<swiper-item>
+<image src="https://b2.kuibu.net/file/imgdisk/imgs/2022/01/d9b0be0184fb0a7b.png"mode="widthFix" class="autoImg"></image>
+</swiper-item>
+  </swiper>
+<view class="changeContent">
+  <view wx:if="{{testtrue}}">节日内容会随时更新</view>
+  <view wx:else>元宵节，祝大家笑口常开，团团圆圆</view> 
+</view>
+<view class='navs'>
+  <view class='nav-item'bindtap='gotolantern1'>
+    <image class="nav-image" src='https://b2.kuibu.net/file/imgdisk/imgs/2022/01/1656dec0bf9993c2.png' />
+    <text>美食专区</text>
+  </view>
+  <view class='nav-item' bindtap='gotolantern2'>
+    <image class="nav-image" src='https://b2.kuibu.net/file/imgdisk/imgs/2022/01/09dfe7a93be0cc79.png' />
+    <text>元宵文案</text>
+  </view>
+  <view class='nav-item'bindtap='gotolantern3'>
+    <image class="nav-image" src='https://b2.kuibu.net/file/imgdisk/imgs/2022/01/77b0e9e0b5279c59.png' />
+    <text> 文学诗句</text>
+  </view>
+  <view class='nav-item'bindtap='gotolantern4'>
+    <image class="nav-image" src='https://b2.kuibu.net/file/imgdisk/imgs/2022/01/2100023de0943a81.png' />
+    <text>  节日科普</text>
+    </view>
+ 
+</view>
+
+<view >
+<image src="https://b2.kuibu.net/file/imgdisk/imgs/2022/01/bc30124fd2e23866.png" class='size-6' mode="widthFix"></image>
+</view>
+
+<view>
+<image src="https://b2.kuibu.net/file/imgdisk/imgs/2022/01/eec6b8d87702c362.png" class='size-7' mode="widthFix"></image>
+</view>
+
+
+
+
+
+
+
+
+

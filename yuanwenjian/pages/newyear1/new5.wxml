@@ -1,0 +1,13 @@
+
+
+<view wx:for="{{wxsj}}" wx:key="list">
+<view class="e">
+<text style="color:rgb(28, 130, 189);font-size:40rpx;">{{item.title}}</text>
+<text>——{{item.writer}}</text>
+<text>{{item.details}}</text>
+
+
+</view>
+</view>
+
+

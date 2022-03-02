@@ -1,0 +1,30 @@
+<!--pages/mszq/qm.wxml-->
+<text></text>
+
+
+<text></text>
+
+<view class="a" >
+<view class="c"><image mode="widthFix" src="https://b2.kuibu.net/file/imgdisk/imgs/2022/01/24f5ce5f4076c3c3.png"></image> </view>
+<view class="b" >  薄荷清  </view>
+</view>
+
+<view class="d">
+<view class="a" >
+<view class="c">
+<image mode="widthFix" src="https://b2.kuibu.net/file/imgdisk/imgs/2022/01/668c04ea4e45b9c1.png">
+</image>
+ </view>
+<view class="b" > 山药青团 </view>
+</view>
+</view>
+
+<view class="e">
+<view class="a" >
+<view class="c">
+<image mode="widthFix" src="https://b2.kuibu.net/file/imgdisk/imgs/2022/01/3a47d2f9f61fb0fb.png">
+</image>
+ </view>
+<view class="b" >  葫芦双菇  </view>
+</view>
+</view>

@@ -1,0 +1,59 @@
+<swiper class="banner"indicator-dots="true"indicator-color="white"indicator-active-color="gray"
+autoplay="true"interval="1000">
+<swiper-item>
+<image src="https://b2.kuibu.net/file/imgdisk/imgs/2022/01/347df77f6ccdb31b.png"mode="widthFix" class="autoImg"></image>
+</swiper-item>
+<swiper-item>
+<image src="https://b2.kuibu.net/file/imgdisk/imgs/2022/01/784989ee81a53d25.png"mode="widthFix" class="autoImg"></image>
+</swiper-item>
+<swiper-item>
+<image src="https://b2.kuibu.net/file/imgdisk/imgs/2022/01/398ffade5e121eb8.jpg"mode="widthFix" class="autoImg"></image>
+</swiper-item>
+</swiper>
+<view class='navs'>
+  <view class='nav-item'bindtap='gotonew2'>
+    <image class="nav-image" src='https://b2.kuibu.net/file/imgdisk/imgs/2022/01/3ee476e06ece3e13.png'  />
+    <text>除夕科普</text>
+  </view>
+  <view class='nav-item' bindtap='gotonew3'>
+    <image class="nav-image" src='https://b2.kuibu.net/file/imgdisk/imgs/2022/01/afff6cedcfe171b1.png' />
+    <text>美食专区</text>
+  </view>
+  <view class='nav-item'bindtap='gotonew4'>
+    <image class="nav-image" src='https://b2.kuibu.net/file/imgdisk/imgs/2022/01/7822bf6e992c88be.png' />
+    <text> 除夕文案</text>
+  </view>
+  <view class='nav-item'bindtap='gotonew5'>
+    <image class="nav-image" src='https://b2.kuibu.net/file/imgdisk/imgs/2022/01/0ddfc98f933eb4c6.jpg' />
+    <text>文学诗句</text>
+</view>
+</view>
+<view class="header">
+<text>其他了解</text>
+<text class="text-all">除夕</text>
+</view>
+<view class='setting' >
+  <image class='btnImg' src='https://b2.kuibu.net/file/imgdisk/imgs/2022/01/0a7d66589cb9ceca.gif' style="width:250rpx;height:200rpx;"></image>
+<text style="font-size:0.7rem;color:#0d0d0e"> 年，又叫夕、岁，每隔365天就会吃人，古  代
+  人们发现年害怕爆竹声，于是利用爆竹声除掉
+  年兽，年出现的这一天被称为年关。</text>  
+      </view>
+      <view class='setting' >
+  <image class='btnImg' src='https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fn.sinaimg.cn%2Ftranslate%2F200%2Fw600h400%2F20190204%2FqkJl-hsmkfyp3394241.gif&refer=http%3A%2F%2Fn.sinaimg.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1644635790&t=a7a0f3233afb096439b40378d4d682e1' style="width:250rpx;height:200rpx;"></image>
+<text style="font-size:0.7rem;color:#0d0d0e"> 除夕夜，阖家电灯熬夜，辞旧迎新整夜不眠，
+俗称守岁。守岁，对年长者意为“辞旧岁”，
+对年轻者意为“延长父母寿命”。</text>  
+      </view>
+      <view class='setting' >
+  <image class='btnImg' src='https://img1.baidu.com/it/u=2574993190,1727415110&fm=26&fmt=auto' style="width:270rpx;height:200rpx;"></image>
+<text style="font-size:0.7rem;color:#0d0d0e"> 爆竹在古代主要是驱除瘟邪的工具，那时候
+只是将未干的竹子放进火里，发出爆裂声。
+唐代将硝石装入竹筒中发出更大声响，这也
+是现代爆竹的原型</text>  
+      </view>
+
+
+
+
+
+   

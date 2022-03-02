@@ -1,0 +1,42 @@
+/* pages/spring/spring4.wxss */
+/* pages/springintroduce/springintroduce.wxss */
+.b
+{
+  color:red;
+font-size:50rpx;
+ display:flew;
+line-height:100rpx;
+left:10rpx;
+
+}
+.a{
+
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+ .banner{
+    width:100%;
+  }
+  .autoImg
+{
+  width:100%;
+}
+.d
+{
+  color:red;
+font-size:50rpx;
+ display:flew;
+line-height:100rpx;
+left:10rpx;
+
+}
+.c{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+ .e{
+line-height:2em;
+
+ }

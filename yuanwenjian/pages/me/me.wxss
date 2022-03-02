@@ -1,0 +1,77 @@
+.a
+{
+  display:flex;
+  justify-content:center;
+
+}
+.b
+{  height:200rpx;
+  width:200rpx;
+
+}
+.c
+{
+  display:flex;
+  justify-content:center;
+
+}
+.d
+{    line-height:1em;
+  margin-top:30rpx;
+  display:flex;
+  justify-content:center;
+}
+
+.setting{
+  font-family:"宋体";
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top:40rpx;
+  margin-left:0rpx;
+
+}
+
+
+.button
+{  display: flex;
+
+  margin-left:-180rpx;
+  background-color: #ffffff;
+  left:-125rpx;
+  top:-100rpx;
+  font-family:"宋体";
+}
+.h
+{
+  display: flex;
+
+  margin-left:45rpx;
+  background-color: #ffffff;
+  left:-125rpx;
+  top:-100rpx;
+}
+.g
+{
+  display: flex;
+
+  margin-left:45rpx;
+  background-color: #ffffff;
+  left:-125rpx;
+  top:-100rpx;
+}
+/* 分隔线 */
+.hr {
+  width: 100%;
+  height: 3rpx;
+  margin-top: 25rpx;
+  background-color: #e9e7e5;
+}
+.setting-1{
+
+
+
+  margin-top:40rpx;
+ left:40rpx;
+ margin-left:45rpx；
+}

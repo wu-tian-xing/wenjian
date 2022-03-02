@@ -1,0 +1,34 @@
+/* pages/craft2/craft2.wxss */
+.view-test{
+    border: 1rpx solid #faca82;
+   border-radius: 10rpx;
+     padding: 40rpx;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+.dd
+{
+  color:rgb(233, 172, 40);
+font-size:50rpx;
+ display:flew;
+line-height:100rpx;
+
+}
+.tt{
+
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.size
+{top:50rpx;
+height:60%;
+width:60%;
+left:100rpx;
+}
+.imagesize{
+ display: flex;
+flex-direction: column;
+align-items: center;
+}

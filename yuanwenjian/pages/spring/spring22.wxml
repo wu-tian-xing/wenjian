@@ -1,0 +1,56 @@
+
+<view class="tt">
+<text class="dd">材料和工具</text>
+</view>
+<view >
+<view class="view-test">
+<text>{{sg.writer}}</text>
+</view>
+<view class="tt">
+<text class="dd">制作的步骤</text>
+</view>
+
+<view class='imagesize'>
+<image src="{{sg.pucture}}" class='size' mode="widthFix"></image>
+</view>
+<view >
+<text>{{sg.details}}</text>
+</view>
+
+<view >
+<text >{{sg.details}}</text>
+</view>
+
+<view>
+<text>{{sg.details}}
+</text>
+</view>
+
+<view>
+<text>{{sg.details}}
+</text>
+</view>
+
+<view>
+<text>{{sg.details}}
+</text>
+</view>
+
+<view>
+<text>{{sg.details}}
+</text>
+</view>
+
+<view>
+<text>{{sg.details}}
+</text>
+</view>
+
+<view>
+<text>{{sg.details}}
+</text>
+</view>
+
+
+</view>
+

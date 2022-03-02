@@ -1,0 +1,23 @@
+<view style="width:840rpx;height:400rpx;left:-40rpx; ">
+<image src="https://b2.kuibu.net/file/imgdisk/imgs/2022/01/ff9548e17e04518d.png" class='size-6' mode="widthFix"></image>
+</view>
+
+<view >
+<image class="bg"src="https://b2.kuibu.net/file/imgdisk/imgs/2022/01/fe86ab7ed7953d8b.png" 
+mode="widthFix"style="height:400rpx;margin-top:-300rpx;">
+</image>
+</view>
+
+
+<view class="bj">
+<view wx:for="{{sgzz}}"  wx:key="index"  class="xbj" bindtap="gotosgzzxq" data-id="{{item.id}}" >
+<view >
+<image class="tu1"  src="{{item.pucture}}"></image>
+<view>
+<text class="zt">{{item.title}}</text>
+</view>
+</view>
+
+</view>
+
+</view>

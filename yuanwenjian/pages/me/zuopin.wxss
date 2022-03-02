@@ -1,0 +1,60 @@
+/* pages/me/zuopin.wxss */
+.a-1
+   {
+     display:flex;
+     justify-content:center;
+   
+   }
+   .b
+   {  height:200rpx;
+     width:200rpx;
+   
+   }
+   .c
+   {
+     display:flex;
+     justify-content:center;
+   }
+   .d
+   {    line-height:0.6em;
+     margin-top:30rpx;
+     display:flex;
+     justify-content:center;
+
+
+   }
+   .e{
+width:60rpx;
+height:60rpx;
+display: flex;
+flex-direction: row;
+margin-left:350rpx;
+margin-top:-80rpx;
+   }
+
+  /* 分隔线 */
+.hr {
+  width: 100%;
+  height: 3rpx;
+  margin-top: 25rpx;
+  background-color: #cecccc;
+}
+.f
+{      justify-content:center;
+  display: flex;
+  flex-direction: row;
+}
+.image
+{
+ margin-left:75rpx;
+}
+.image-1
+{
+ margin-left:170rpx;
+}
+.setting{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top:15rpx;
+  }

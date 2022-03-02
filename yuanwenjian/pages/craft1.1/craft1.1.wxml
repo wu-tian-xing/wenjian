@@ -1,0 +1,72 @@
+<!--pages/craft1.1/craft1.1.wxml-->
+<view class="tt">
+<text class="dd">材料和工具</text>
+</view>
+<view class="view-test">
+<text>彩纸、吸管、羽毛、塑料小眼睛、  黑色油性笔、固体胶、透明胶带、剪刀</text>
+</view>
+<view class="tt">
+<text class="dd">制作的步骤</text>
+</view>
+<view >
+<text>1.一次性塑料碗在纸上比划一个圆形，接着把塑料眼睛放在纸上，画一双眼帘，如下图。</text>
+</view>
+<view class='imagesize'>
+<image src="https://s3.bmp.ovh/imgs/2022/01/2b04d4467a08fccd.png" class='size' mode="widthFix"></image>
+</view>
+<view >
+<text >2.裁剪好各部件，如下图需要的相应工具</text>
+</view>
+<view class='imagesize'>
+<image src="https://s3.bmp.ovh/imgs/2022/01/cd1b20b5e7db4385.png" class='size' mode="widthFix"></image>
+</view>
+<view>
+<text>3.把各部件粘贴在对应位置上。
+</text>
+</view>
+<view class='imagesize'>
+<image src="https://s3.bmp.ovh/imgs/2022/01/1c4e1ddc43e81216.png" class='size' mode="widthFix"></image>
+</view>
+<view class='imagesize'>
+<image src="https://s3.bmp.ovh/imgs/2022/01/180d7b9ff77d8141.png" class='size' mode="widthFix"></image>
+</view>
+<view>
+<text>4.用你喜欢的颜色的羽毛装饰如下图。
+</text>
+</view>
+<view class='imagesize'>
+<image src="https://s3.bmp.ovh/imgs/2022/01/ccf627f876dc6ae4.png" class='size' mode="widthFix"></image>
+</view>
+<view class='imagesize'>
+<image src="https://s3.bmp.ovh/imgs/2022/01/856c12c7e8edd685.png" class='size' mode="widthFix"></image>
+</view>
+<view>
+<text>5.裁剪彩纸成长条形，如下图
+</text>
+</view>
+<view class='imagesize'>
+<image src="https://s3.bmp.ovh/imgs/2022/01/bc936d592bc63712.png" class='size' mode="widthFix"></image>
+</view>
+<view>
+<text>6.用裁剪好的长条纸，做成圈圈，最后把这些圈圈连接起来。
+</text>
+</view>
+<view class='imagesize'>
+<image src="https://s3.bmp.ovh/imgs/2022/01/9dd6909fd7c42c5e.png" class='size' mode="widthFix"></image>
+</view>
+<view>
+<text>7.最后把这些圈圈与做好的狮头连接起来。
+</text>
+</view>
+<view class='imagesize'>
+<image src="https://s3.bmp.ovh/imgs/2022/01/8c5e09f9faee52ba.png" class='size' mode="widthFix"></image>
+</view>
+<view>
+<text>8.最后用热熔胶把吸管固定在头部和尾部.
+</text>
+</view>
+<view class='imagesize'>
+<image src="https://s3.bmp.ovh/imgs/2022/01/983783d25d88c17f.png" class='size' mode="widthFix"></image>
+</view>
+
+

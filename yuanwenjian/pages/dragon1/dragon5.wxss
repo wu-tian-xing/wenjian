@@ -1,0 +1,12 @@
+/* pages/dragon1/dragon5.wxss */
+.setting{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .banner{
+    width:100%;
+  }
+  .a{
+    line-height:2em;
+     }

@@ -1,0 +1,39 @@
+
+<!--pages/zuopin/xiangqing.wxml-->
+<view  class="a">
+<view>
+<text>活动名称：温暖聚集</text>
+</view>
+<view>
+<text>活动标签：除夕</text>
+</view>
+<view>
+<text>活动方式：线下活动</text>
+</view>
+<view>
+<text>召集人数：5人</text>
+</view>
+<view>
+<text>活动日期：21/1/24-21/1/25</text>
+</view>
+<view>
+<text>时间段：18:20-20:30</text>
+</view>
+<view>
+<text>地点详情：</text>
+</view>
+<view>
+<text decode="true">&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;  黑龙江省哈尔滨市呼兰区学院路街道288号xxx商铺</text>
+</view>
+<view>
+<text>活动详情：
+</text>
+</view>
+<view>
+<text  decode="true">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  针对除夕节，我们进行线上召集活动，我们将在线上进行游戏，分队然后进行PK,胜利的可以获得奖品。</text>
+</view>
+</view>
+
+
+
+

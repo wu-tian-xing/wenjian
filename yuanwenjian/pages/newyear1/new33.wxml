@@ -1,0 +1,39 @@
+ <view >
+<view class="tt">
+<text class="dd">需要的材料</text>
+</view>
+<view class='setting' >
+<text style="font-size:1.1rem;color:#0d0d0e"> {{msxq.writer}}
+</text>  
+</view>
+<view  class='size'>
+<image src="{{msxq.pucture}}" mode="widthFix"></image>
+</view>
+<view>
+<text>1、{{msxq.details}}
+</text>
+</view>
+
+<view>
+<text>2、{{msxq.details}}
+</text>
+</view>
+
+<view>
+<text>3、{{msxq.details}}
+</text>
+</view>
+
+
+<view>
+<text>4、{{msxq.details}}
+</text>
+</view>
+
+<view>
+<text>5、{{msxq.details}}
+</text>
+</view>
+
+</view>
+

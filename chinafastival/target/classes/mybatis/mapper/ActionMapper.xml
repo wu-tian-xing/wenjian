@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.chinafestival.mapper.ActionMapper">
+
+    <insert id="addAction" parameterType="com.chinafestival.pojo.Action">
+        insert into chinafestival.actions(a_id,informatin,title,sort,starttime,endtime,place,needpeople,way,picture,statecode)
+        values (#{a_id},#{informatin},#{title},#{sort},#{starttime},#{endtime},#{place},#{needpeople},#{way},#{picture},#{statecode})
+    </insert>
+    <insert id="addUser_id" parameterType="com.chinafestival.pojo.ActionUser">
+        insert into chinafestival.actions_user(a_id,u_id)
+        values (#{u_id},#{a_id})
+    </insert>
+    <update id="deleteAction" parameterType="com.chinafestival.pojo.Action">
+        delete from chinafestival.actions
+        where a_id=#{a_id}
+    </update>
+    <update id="updateAction" parameterType="com.chinafestival.pojo.Action">
+        update  chinafestival.actions
+        set  informatin=#{informatin},title=#{title},sort=#{sort},starttime=#{starttime},endtime=#{endtime},place=#{place},
+            needpeople=#{needpeople}, way=#{way},picture=#{picture}
+        where a_id=#{a_id}
+    </update>
+    <select id="selectAction" parameterType="com.chinafestival.pojo.Action" resultType="com.chinafestival.pojo.ActionView">
+        select * from chinafestival.actions limit #{page},#{limit}
+    </select>
+    <select id="selectOneAction" parameterType="com.chinafestival.pojo.Action" resultType="com.chinafestival.pojo.Action">
+        select * from chinafestival.actions
+        where a_id=#{a_id}
+    </select>
+    <select id="selectUserAction" parameterType="com.chinafestival.pojo.ActionView" resultType="com.chinafestival.pojo.ActionView">
+        select * from chinafestival.actions_view
+            where u_id=#{u_id}
+            limit #{page},#{limit}
+    </select>
+
+    <delete id="outAction" parameterType="com.chinafestival.pojo.ActionUser">
+        delete from chinafestival.actions_user
+        where a_id=#{a_id} and u_id=#{u_id}
+    </delete>
+
+    <select id="queryAction" resultType="com.chinafestival.pojo.ActionView" >
+        select * from chinafestival.actions_view
+        <where>
+            <if test="Keyword!=null">
+                and concat_ws(" ",sort,a_id,title,place,way) regexp #{Keyword}
+            </if>
+        </where>
+        limit #{page},#{limit}
+    </select>
+
+
+
+</mapper>
